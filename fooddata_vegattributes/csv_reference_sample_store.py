@@ -2,17 +2,16 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from typing import Iterable, Mapping, Optional, Sequence
 
-from .abstract_food_store import AbstractFoodStore
-from .abstract_reference_sample_store import AbstractReferenceSampleStore
 from .category import Category
+from .indexed_fooddata_food_store import IndexedFoodDataFoodStore
 from .reference_sample import ReferenceSample
 from .reference_samples_csv import ReferenceSampleDict, ReferenceSamplesCsv
 
 
 @dataclass
-class CsvReferenceSampleStore(AbstractReferenceSampleStore):
+class CsvReferenceSampleStore:
     reference_samples_csv: ReferenceSamplesCsv
-    food_store: AbstractFoodStore
+    food_store: IndexedFoodDataFoodStore
 
     @classmethod
     @contextmanager

@@ -2,19 +2,17 @@ import json
 from contextlib import contextmanager
 from os import PathLike, fspath
 from pathlib import Path
-from typing import Iterable, Iterator, Self, Tuple, Union
+from typing import Dict, Iterable, Iterator, List, Self, Tuple, Union
 from zipfile import ZIP_DEFLATED, ZipFile
 
-from .abstract_indexable_linkable_bytes_store import (
-    AbstractIndexableLinkableBytesStore,
-    LinksForSourceIndexName,
-    LinkTargets,
-)
+# links are (confusingly) 1-to-n; should probably be named tags or secondary
+# indices or something like that
+LinkTargets = List[Tuple[str, str]]  # TODO rename
+LinksForSourceIndexName = Dict[str, LinkTargets]
+Links = Dict[str, LinksForSourceIndexName]
 
 
-class ZippedIndexableLinkableBytesStore(
-    AbstractIndexableLinkableBytesStore,
-):
+class ZippedIndexableLinkableBytesStore:
     """
     Compressed, indexed bytes stored in a ZIP file.
     """

@@ -1,7 +1,7 @@
 from logging import getLogger
 from typing import TYPE_CHECKING
 
-from .abstract_food_store import AbstractFoodStore
+from .indexed_fooddata_food_store import IndexedFoodDataFoodStore
 
 if TYPE_CHECKING:
     from .categorization import Categorizer
@@ -16,7 +16,7 @@ logger = getLogger(__name__)
 def categorize(
     food: Food,
     categorizer: "Categorizer",
-    food_store: AbstractFoodStore,
+    food_store: IndexedFoodDataFoodStore,
 ):
     ingredient_based_category = ingredient_based_heuristic.categorize(
         food,

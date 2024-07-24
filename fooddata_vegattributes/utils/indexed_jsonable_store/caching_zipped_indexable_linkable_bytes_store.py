@@ -1,12 +1,10 @@
 from collections import defaultdict
 from typing import Dict, Iterable, Set, Tuple
 
-from .abstract_indexable_linkable_bytes_store import (
+from .zipped_indexable_linkable_bytes_store import (
     Links,
     LinksForSourceIndexName,
     LinkTargets,
-)
-from .zipped_indexable_linkable_bytes_store import (
     ZipFile,
     ZippedIndexableLinkableBytesStore,
 )

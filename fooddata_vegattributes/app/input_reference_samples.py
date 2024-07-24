@@ -1,9 +1,9 @@
 import random
 
-from ..abstract_food_store import AbstractFoodStore
 from ..category import Category
 from ..fdc_app import get_fdc_app_details_url
 from ..food import Food
+from ..indexed_fooddata_food_store import IndexedFoodDataFoodStore
 from ..reference_sample import ReferenceSample
 from .with_default_paths import default_food_and_reference_sample_stores
 
@@ -18,9 +18,9 @@ shortcut_to_category = {
 }
 
 
-def print_ingredients(food_store: AbstractFoodStore, food: Food, indent=1):
+def print_ingredients(food_store: IndexedFoodDataFoodStore, food: Food, indent=1):
     for input_food_stub in food.input_food_stubs:
-        assert input_food_stub.fdc_id != food.fdc_id
+        assert input_food_stub.id != food.fdc_id
         try:
             input_food = food_store.get_by_ingredient_code(input_food_stub.ingredient_code)
         except KeyError:

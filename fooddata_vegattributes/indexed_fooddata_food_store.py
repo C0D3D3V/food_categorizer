@@ -3,13 +3,12 @@ from dataclasses import dataclass
 from os import PathLike
 from typing import Iterable, Iterator, Mapping, Self, Union
 
-from .abstract_food_store import AbstractFoodStore
 from .compressed_indexed_fooddata import CompressedIndexedFoodDataJson
 from .food import Food
 
 
 @dataclass
-class IndexedFoodDataFoodStore(AbstractFoodStore):
+class IndexedFoodDataFoodStore:
     indexed_fooddata_json: CompressedIndexedFoodDataJson
 
     @classmethod

@@ -14,9 +14,6 @@ from typing import (
 )
 
 from .abstract import AbstractIndexedJsonableStore, IndexSpec
-from .abstract_indexable_linkable_jsonable_store import (
-    AbstractIndexableLinkableJsonableStore,
-)
 from .zipped_indexable_linkable_jsonable_store import (
     ZIP_DEFLATED,
     ZippedIndexableLinkableJsonableStore,
@@ -28,7 +25,7 @@ T = TypeVar("T")
 class AutoIndexingJsonableWriter(Generic[T]):
     def __init__(
         self,
-        jsonable_store: AbstractIndexableLinkableJsonableStore,
+        jsonable_store: ZippedIndexableLinkableJsonableStore,
         primary_index: IndexSpec,
         secondary_indices: Sequence[IndexSpec],
     ):
@@ -65,7 +62,7 @@ class IndexedJsonableStore(
 ):
     def __init__(
         self,
-        indexable_jsonable_store: AbstractIndexableLinkableJsonableStore[T],
+        indexable_jsonable_store: ZippedIndexableLinkableJsonableStore[T],
         primary_index: IndexSpec,
         secondary_indices: Sequence[IndexSpec],
     ):

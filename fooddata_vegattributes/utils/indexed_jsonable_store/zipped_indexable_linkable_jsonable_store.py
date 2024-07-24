@@ -1,25 +1,22 @@
 import json
 from contextlib import contextmanager
 from os import PathLike
-from typing import Generic, Iterable, Self, Tuple, Union
+from typing import Generic, Iterable, Iterator, Self, Tuple, TypeVar, Union
 
-from .abstract_indexable_linkable_bytes_store import AbstractIndexableLinkableBytesStore
-from .abstract_indexable_linkable_jsonable_store import (
-    AbstractIndexableLinkableJsonableStore,
-    LinkTargets,
-    T,
-)
 from .caching_zipped_indexable_linkable_bytes_store import (
     CachingZippedIndexableLinkableBytesStore,
 )
 from .zipped_indexable_linkable_bytes_store import (
     ZIP_DEFLATED,
+    LinkTargets,
     ZippedIndexableLinkableBytesStore,
 )
 
+T = TypeVar("T")  # JSONable
 
-class ZippedIndexableLinkableJsonableStore(AbstractIndexableLinkableJsonableStore, Generic[T]):
-    def __init__(self, bytes_store: AbstractIndexableLinkableBytesStore):
+
+class ZippedIndexableLinkableJsonableStore(Generic[T]):
+    def __init__(self, bytes_store: ZippedIndexableLinkableBytesStore):
         self.bytes_store = bytes_store
 
     @classmethod
@@ -31,7 +28,7 @@ class ZippedIndexableLinkableJsonableStore(AbstractIndexableLinkableJsonableStor
         compression=ZIP_DEFLATED,
         compresslevel=None,
         caching=True,
-    ) -> Iterable[Self]:
+    ) -> Iterator[Self]:
         """
         Opens store for reading or writing depending on the given mode.
         """

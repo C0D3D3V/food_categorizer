@@ -3,10 +3,10 @@ from enum import auto
 from typing import Dict, Mapping, Optional
 
 from . import combined_heuristic
-from .abstract_food_store import AbstractFoodStore
-from .abstract_reference_sample_store import AbstractReferenceSampleStore
 from .category import Category
+from .csv_reference_sample_store import CsvReferenceSampleStore
 from .food import Food
+from .indexed_fooddata_food_store import IndexedFoodDataFoodStore
 from .reference_sample import ReferenceSample
 from .utils.enum import AutoStrEnum
 
@@ -32,8 +32,8 @@ class Categorizer:
     be horribly inefficient).
     """
 
-    reference_sample_store: AbstractReferenceSampleStore
-    food_store: AbstractFoodStore
+    reference_sample_store: CsvReferenceSampleStore
+    food_store: IndexedFoodDataFoodStore
     _cached_reference_samples_by_fdc_id: Optional[Dict[int, ReferenceSample]] = None
 
     def categorize(self, food: Food) -> Categorization:
