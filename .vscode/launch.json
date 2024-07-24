@@ -9,6 +9,19 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/",
             "args": [
+                "generate"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "Food Data Vegattribtues input Ref",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/fooddata-vegattributes",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/",
+            "args": [
+                "input-ref"
             ],
             "justMyCode": false
         }

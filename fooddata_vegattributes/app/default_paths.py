@@ -14,15 +14,11 @@ class FileNames:
 
 
 default_filenames = FileNames(
-    survey_fooddata_json=("FoodData_Central_survey_food_json_2021-10-28.json"),
+    survey_fooddata_json=("FoodData_Central_survey_food_json_2022-10-28.json"),
     sr_legacy_fooddata_json=("FoodData_Central_sr_legacy_food_json_2021-10-28.json"),
-    compressed_indexed_fooddata_json=(
-        "indexed_FoodData_Central_survey_and_sr_legacy_food_json_2021-10-28" ".jsons.zip"
-    ),
+    compressed_indexed_fooddata_json=("indexed_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.jsons.zip"),
     reference_samples_csv="reference_samples.csv",
-    generated_vegattributes_json=(
-        "VegAttributes_for_FoodData_Central_survey_and_sr_legacy_food_json" "_2021-10-28.json"
-    ),
+    generated_vegattributes_json=("VegAttributes_for_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.json"),
 )
 
 

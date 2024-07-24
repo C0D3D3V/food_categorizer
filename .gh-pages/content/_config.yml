@@ -2,7 +2,7 @@ title: fooddata-vegattributes
 description: >-
   Attributes specifying whether a food is vegan or vegetarian for certain USDA
   FDC FoodData datasets.
-github_username: v3gtb
+github_username: c0d3d3v
 
 ignore_theme_config: true
 safe: false

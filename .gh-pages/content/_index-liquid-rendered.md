@@ -1,4 +1,6 @@
-# fooddata-vegattributes
+## About
+
+The aim of this project is to provide free and open add-on data for the
 [USDA's FDC FoodData datasets](https://fdc.nal.usda.gov/download-datasets.html)
 containing attributes that categorize foods as vegan, vegetarian, or neither.
 
@@ -105,14 +107,14 @@ expected to be much, much lower than that caused by failures of the heuristic.
 For debugging and demoing purposes, the current lists of foods in each category
 can be viewed here:
 
-- [VEGAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan) (4079 entries)
-- [VEGAN_OR_VEGETARIAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-or-vegetarian) (437 entries)
-- [VEGETARIAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegetarian) (2959 entries)
-- [VEGAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-or-omni) (4 entries)
-- [VEGAN_VEGETARIAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-vegetarian-or-omni) (170 entries)
-- [VEGETARIAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegetarian-or-omni) (49 entries)
-- [OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/omni) (5392 entries)
-- [UNCATEGORIZED](https://v3gtb.github.io/fooddata-vegattributes/category-lists/uncategorized) (327 entries)
+- [VEGAN](category-lists/vegan) (4079 entries)
+- [VEGAN_OR_VEGETARIAN](category-lists/vegan-or-vegetarian) (437 entries)
+- [VEGETARIAN](category-lists/vegetarian) (2959 entries)
+- [VEGAN_OR_OMNI](category-lists/vegan-or-omni) (4 entries)
+- [VEGAN_VEGETARIAN_OR_OMNI](category-lists/vegan-vegetarian-or-omni) (170 entries)
+- [VEGETARIAN_OR_OMNI](category-lists/vegetarian-or-omni) (49 entries)
+- [OMNI](category-lists/omni) (5392 entries)
+- [UNCATEGORIZED](category-lists/uncategorized) (327 entries)
 
 
 ## Source code and development
@@ -121,7 +123,7 @@ The script used to generate the data released by this project from FDC data via
 the heuristic explained above can be found in the project's
 [GitHub repository](https://github.com/v3gtb/fooddata-vegattributes).
 
-Some incomplete notes on development can be found [here](https://v3gtb.github.io/fooddata-vegattributes/dev-notes.html).
+Some incomplete notes on development can be found [here](dev-notes.html).
 
 ## License
 

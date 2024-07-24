@@ -3,14 +3,14 @@ name: Generate and deploy
 on: [push]
 
 env:
-  SURVEY_FOODDATA_ZIP_URL: 'https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2021-10-28.zip'
-  SURVEY_FOODDATA_ZIP_FILENAME: 'FoodData_Central_survey_food_json_2021-10-28.zip'
-  SURVEY_FOODDATA_JSON_FILENAME: 'FoodData_Central_survey_food_json_2021-10-28.json'
+  SURVEY_FOODDATA_ZIP_URL: 'https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2022-10-28.zip'
+  SURVEY_FOODDATA_ZIP_FILENAME: 'FoodData_Central_survey_food_json_2022-10-28.zip'
+  SURVEY_FOODDATA_JSON_FILENAME: 'FoodData_Central_survey_food_json_2022-10-28.json'
   SR_LEGACY_FOODDATA_ZIP_URL: 'https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2021-10-28.zip'
   SR_LEGACY_FOODDATA_ZIP_FILENAME: 'FoodData_Central_sr_legacy_food_json_2021-10-28.zip'
   SR_LEGACY_FOODDATA_JSON_FILENAME: 'FoodData_Central_sr_legacy_food_json_2021-10-28.json'
   FOODDATA_DIR: fooddata
-  GENERATED_JSON_FILENAME: 'VegAttributes_for_FoodData_Central_survey_and_sr_legacy_food_json_2021-10-28.json'
+  GENERATED_JSON_FILENAME: 'VegAttributes_for_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.json'
 
 jobs:
   generate-and-test-and-publish:
@@ -26,7 +26,7 @@ jobs:
         with:
           path: |
             ${{ env.FOODDATA_DIR }}
-            indexed_FoodData_Central_survey_and_sr_legacy_food_json_2021-10-28.jsons.zip
+            indexed_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.jsons.zip
           key: v4-${{ env.SURVEY_FOODDATA_ZIP_URL }}-${{ env.SR_LEGACY_FOODDATA_ZIP_URL }}
       - name: Download USDA FDC FoodData
         if: steps.download.outputs.cache-hit != 'true'
