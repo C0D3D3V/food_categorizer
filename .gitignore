@@ -6,3 +6,8 @@ vendor
 __pycache__
 *.egg-info
 *.xz
+
+FoodData_Central_sr_legacy_food_json_2021-10-28.json
+FoodData_Central_survey_food_json_2022-10-28.json
+
+

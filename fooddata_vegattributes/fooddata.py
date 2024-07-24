@@ -1,6 +1,7 @@
 import json
 from os import PathLike
-from typing import cast, List, TypedDict, Union
+from typing import List, TypedDict, Union, cast
+
 
 # NOTE that while the TypedDict PEP (PEP-589) and docs both suggest that extra
 # keys are not allowed, this is actually contentious because it contradicts
@@ -11,33 +12,34 @@ from typing import cast, List, TypedDict, Union
 # the current (inconsistent) definition of TypedDict, we'll just typing.cast()
 # back and forth to regular dict where required.
 class InputFoodDict(TypedDict):
-  id: int
-  foodDescription: str
-  ingredientCode: int
+    id: int
+    foodDescription: str
+    ingredientCode: int
+
 
 class FoodDataDict(TypedDict):
-  fdcId: int
-  description: str
-  inputFoods: List[InputFoodDict]
+    fdcId: int
+    description: str
+    inputFoods: List[InputFoodDict]
+
 
 class SurveyFoodDataDict(FoodDataDict):
-  foodCode: int
-  wweiaFoodCategory: dict
+    foodCode: int
+    wweiaFoodCategory: dict
+
 
 class SrLegacyFoodDataDict(FoodDataDict):
-  ndbNumber: int
-  foodCategory: dict
+    ndbNumber: int
+    foodCategory: dict
 
-def load_survey_fooddata_dicts(
-  path: Union[PathLike, str, bytes]
-) -> List[SurveyFoodDataDict]:
-  with open(path) as f:
-    food_ds = json.load(f)["SurveyFoods"]
-  return cast(List[SurveyFoodDataDict], food_ds)
 
-def load_sr_legacy_fooddata_dicts(
-  path: Union[PathLike, str, bytes]
-) -> List[SrLegacyFoodDataDict]:
-  with open(path) as f:
-    food_ds = json.load(f)["SRLegacyFoods"]
-  return cast(List[SrLegacyFoodDataDict], food_ds)
+def load_survey_fooddata_dicts(path: Union[PathLike, str, bytes]) -> List[SurveyFoodDataDict]:
+    with open(path) as f:
+        food_ds = json.load(f)["SurveyFoods"]
+    return cast(List[SurveyFoodDataDict], food_ds)
+
+
+def load_sr_legacy_fooddata_dicts(path: Union[PathLike, str, bytes]) -> List[SrLegacyFoodDataDict]:
+    with open(path) as f:
+        food_ds = json.load(f)["SRLegacyFoods"]
+    return cast(List[SrLegacyFoodDataDict], food_ds)

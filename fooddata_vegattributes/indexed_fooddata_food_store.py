@@ -3,58 +3,47 @@ from os import PathLike
 from typing import Iterable, Mapping, Union
 
 from .abstract_food_store import AbstractFoodStore
-from .food import Food
 from .compressed_indexed_fooddata import CompressedIndexedFoodDataJson
+from .food import Food
 from .utils.close_on_exit import CloseOnExit
 from .utils.close_via_stack import CloseViaStack
 
 
 @dataclass
 class IndexedFoodDataFoodStore(CloseViaStack, AbstractFoodStore, CloseOnExit):
-  indexed_fooddata_json: CompressedIndexedFoodDataJson
+    indexed_fooddata_json: CompressedIndexedFoodDataJson
 
-  @classmethod
-  def from_path(
-    cls, path: Union[PathLike, str, bytes], mode="r",
-  ) -> "IndexedFoodDataFoodStore":
-    indexed_fooddata_json = CompressedIndexedFoodDataJson.from_path(path, mode)
-    obj = cls(indexed_fooddata_json=indexed_fooddata_json)
-    obj.close_stack.enter_context(indexed_fooddata_json)
-    return obj
+    @classmethod
+    def from_path(
+        cls,
+        path: Union[PathLike, str, bytes],
+        mode="r",
+    ) -> "IndexedFoodDataFoodStore":
+        indexed_fooddata_json = CompressedIndexedFoodDataJson.from_path(path, mode)
+        obj = cls(indexed_fooddata_json=indexed_fooddata_json)
+        obj.close_stack.enter_context(indexed_fooddata_json)
+        return obj
 
-  def get_mapped_by_fdc_ids(
-    self, fdc_ids: Iterable[int]
-  ) -> Mapping[int, Food]:
-    fdc_ids_to_food_ds = {
-      fdc_id: self.indexed_fooddata_json.get_fooddata_dict_by_fdc_id(fdc_id)
-      for fdc_id in fdc_ids
-    }
-    return {
-     fdc_id: Food.from_fdc_food_dict(food_d)
-     for fdc_id, food_d in fdc_ids_to_food_ds.items()
-    }
+    def get_mapped_by_fdc_ids(self, fdc_ids: Iterable[int]) -> Mapping[int, Food]:
+        fdc_ids_to_food_ds = {
+            fdc_id: self.indexed_fooddata_json.get_fooddata_dict_by_fdc_id(fdc_id) for fdc_id in fdc_ids
+        }
+        return {fdc_id: Food.from_fdc_food_dict(food_d) for fdc_id, food_d in fdc_ids_to_food_ds.items()}
 
-  def get_by_fdc_id(self, fdc_id: int) -> Food:
-    return self.get_mapped_by_fdc_ids([fdc_id])[fdc_id]
+    def get_by_fdc_id(self, fdc_id: int) -> Food:
+        return self.get_mapped_by_fdc_ids([fdc_id])[fdc_id]
 
-  def get_by_ingredient_code(self, ingredient_code: int) -> Food:
-    return Food.from_fdc_food_dict(
-      self.indexed_fooddata_json.get_fooddata_dict_by_ingredient_code(
-        ingredient_code
-      )
-    )
+    def get_by_ingredient_code(self, ingredient_code: int) -> Food:
+        return Food.from_fdc_food_dict(self.indexed_fooddata_json.get_fooddata_dict_by_ingredient_code(ingredient_code))
 
-  def get_all_fdc_ids(self) -> Iterable[int]:
-    return self.indexed_fooddata_json.get_all_fdc_ids()
+    def get_all_fdc_ids(self) -> Iterable[int]:
+        return self.indexed_fooddata_json.get_all_fdc_ids()
 
-  def get_mapped_by_fdc_category(
-    self, fdc_category_description: str
-  ) -> Mapping[int, Food]:
-    return {
-      food.fdc_id: food for food in [
-        Food.from_fdc_food_dict(d) for d in
-        self.indexed_fooddata_json.get_fooddata_dicts_by_fdc_category(
-          fdc_category_description
-        )
-      ]
-    }
+    def get_mapped_by_fdc_category(self, fdc_category_description: str) -> Mapping[int, Food]:
+        return {
+            food.fdc_id: food
+            for food in [
+                Food.from_fdc_food_dict(d)
+                for d in self.indexed_fooddata_json.get_fooddata_dicts_by_fdc_category(fdc_category_description)
+            ]
+        }

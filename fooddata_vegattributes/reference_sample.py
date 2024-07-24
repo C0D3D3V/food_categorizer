@@ -5,6 +5,6 @@ from .category import Category
 
 @dataclass
 class ReferenceSample:
-  fdc_id: int
-  expected_category: Category
-  known_failure: bool = False
+    fdc_id: int
+    expected_category: Category
+    known_failure: bool = False

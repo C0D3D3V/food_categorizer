@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+# coding=utf-8
+
+import fooddata_vegattributes.app.cli
+
+if __name__ == "__main__":
+    fooddata_vegattributes.app.cli.main()
