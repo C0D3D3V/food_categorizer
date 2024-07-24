@@ -1,28 +1,26 @@
+from contextlib import contextmanager
 from dataclasses import dataclass
 from os import PathLike
-from typing import Iterable, Mapping, Union
+from typing import Iterable, Iterator, Mapping, Self, Union
 
 from .abstract_food_store import AbstractFoodStore
 from .compressed_indexed_fooddata import CompressedIndexedFoodDataJson
 from .food import Food
-from .utils.close_on_exit import CloseOnExit
-from .utils.close_via_stack import CloseViaStack
 
 
 @dataclass
-class IndexedFoodDataFoodStore(CloseViaStack, AbstractFoodStore, CloseOnExit):
+class IndexedFoodDataFoodStore(AbstractFoodStore):
     indexed_fooddata_json: CompressedIndexedFoodDataJson
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
         mode="r",
-    ) -> "IndexedFoodDataFoodStore":
-        indexed_fooddata_json = CompressedIndexedFoodDataJson.from_path(path, mode)
-        obj = cls(indexed_fooddata_json=indexed_fooddata_json)
-        obj.close_stack.enter_context(indexed_fooddata_json)
-        return obj
+    ) -> Iterator[Self]:
+        with CompressedIndexedFoodDataJson.from_path(path, mode) as indexed_fooddata_json:
+            yield cls(indexed_fooddata_json=indexed_fooddata_json)
 
     def get_mapped_by_fdc_ids(self, fdc_ids: Iterable[int]) -> Mapping[int, Food]:
         fdc_ids_to_food_ds = {

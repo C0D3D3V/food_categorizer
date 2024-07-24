@@ -1,10 +1,10 @@
 import json
+from contextlib import contextmanager
 from os import PathLike, fspath
 from pathlib import Path
-from typing import Iterable, Tuple, Union
+from typing import Iterable, Iterator, Self, Tuple, Union
 from zipfile import ZIP_DEFLATED, ZipFile
 
-from ..close_via_stack import CloseViaStack
 from .abstract_indexable_linkable_bytes_store import (
     AbstractIndexableLinkableBytesStore,
     LinksForSourceIndexName,
@@ -13,7 +13,6 @@ from .abstract_indexable_linkable_bytes_store import (
 
 
 class ZippedIndexableLinkableBytesStore(
-    CloseViaStack,
     AbstractIndexableLinkableBytesStore,
 ):
     """
@@ -24,25 +23,24 @@ class ZippedIndexableLinkableBytesStore(
         self.zipfile = zipfile
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
         mode="r",
         compression=ZIP_DEFLATED,
         compresslevel=None,
-    ) -> "ZippedIndexableLinkableBytesStore":
+    ) -> Iterator[Self]:
         """
         Opens archive for reading or writing depending on the given mode.
         """
-        zipfile = ZipFile(
+        with ZipFile(
             str(fspath(path)),
             mode=mode,
             compression=compression,
             compresslevel=compresslevel,
-        )
-        obj = cls(zipfile=zipfile)
-        obj.close_stack.enter_context(zipfile)
-        return obj
+        ) as zipfile:
+            yield cls(zipfile=zipfile)
 
     def put_entries(
         self,

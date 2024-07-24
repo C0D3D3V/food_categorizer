@@ -6,7 +6,7 @@ from .fooddata import FoodDataDict, SrLegacyFoodDataDict, SurveyFoodDataDict
 
 @dataclass(frozen=True)
 class InputFoodStub:
-    fdc_id: int  # FIXME wrong, it's a completely unrelated ID => remove later
+    id: int
     description: str
     ingredient_code: int
 

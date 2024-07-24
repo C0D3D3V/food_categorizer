@@ -35,5 +35,4 @@ def auto_compressed_indexed_fooddata_food_store(
             sr_legacy_fooddata_json_path=sr_legacy_fooddata_json_path,
         ),
     ) as cifj:
-        with IndexedFoodDataFoodStore(indexed_fooddata_json=cifj) as store:
-            yield store
+        yield IndexedFoodDataFoodStore(indexed_fooddata_json=cifj)

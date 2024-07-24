@@ -1,5 +1,5 @@
-from contextlib import ExitStack
-from dataclasses import dataclass, field
+from contextlib import contextmanager
+from dataclasses import dataclass
 from typing import Iterable, Mapping, Optional, Sequence
 
 from .abstract_food_store import AbstractFoodStore
@@ -7,30 +7,24 @@ from .abstract_reference_sample_store import AbstractReferenceSampleStore
 from .category import Category
 from .reference_sample import ReferenceSample
 from .reference_samples_csv import ReferenceSampleDict, ReferenceSamplesCsv
-from .utils.close_on_exit import CloseOnExit
 
 
 @dataclass
-class CsvReferenceSampleStore(AbstractReferenceSampleStore, CloseOnExit):
+class CsvReferenceSampleStore(AbstractReferenceSampleStore):
     reference_samples_csv: ReferenceSamplesCsv
     food_store: AbstractFoodStore
-    close_stack: ExitStack = field(init=False, default_factory=ExitStack)
 
     @classmethod
+    @contextmanager
     def from_path_and_food_store(cls, path, food_store, create=False):
         mode = "a+" if create else "r+"
-        reference_samples_csv = ReferenceSamplesCsv.from_path(path, mode)
-        if create:
-            reference_samples_csv.write_header_if_empty()
-        obj = cls(
-            reference_samples_csv=reference_samples_csv,
-            food_store=food_store,
-        )
-        obj.close_stack.enter_context(reference_samples_csv)
-        return obj
-
-    def close(self):
-        self.close_stack.close()
+        with ReferenceSamplesCsv.from_path(path, mode) as reference_samples_csv:
+            if create:
+                reference_samples_csv.write_header_if_empty()
+            yield cls(
+                reference_samples_csv=reference_samples_csv,
+                food_store=food_store,
+            )
 
     def iter_all(self) -> Iterable[ReferenceSample]:
         return (

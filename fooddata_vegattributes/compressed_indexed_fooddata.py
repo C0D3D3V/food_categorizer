@@ -1,13 +1,13 @@
+from contextlib import contextmanager
 from os import PathLike
-from typing import Union
+from typing import Iterator, Self, Union
 
 from .abstract_indexed_fooddata import AbstractIndexedFoodDataJson
 from .fooddata import FoodDataDict
-from .utils.close_via_stack import CloseViaStack
 from .utils.indexed_jsonable_store import IndexedJsonableStore, IndexSpec
 
 
-class CompressedIndexedFoodDataJson(CloseViaStack, AbstractIndexedFoodDataJson):
+class CompressedIndexedFoodDataJson(AbstractIndexedFoodDataJson):
     """
     Compressed, indexed (by FDC ID) FoodData JSON entries stored in a file.
     """
@@ -16,17 +16,18 @@ class CompressedIndexedFoodDataJson(CloseViaStack, AbstractIndexedFoodDataJson):
         self.indexed_json = compressed_indexed_json
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
         mode="r",
-    ) -> "CompressedIndexedFoodDataJson":
+    ) -> Iterator[Self]:
         """
         Opens archive for reading or writing depending on the given mode.
 
         See `CompressedIndexedJson` docs for possible modes.
         """
-        compressed_indexed_json = IndexedJsonableStore.from_path(
+        with IndexedJsonableStore.from_path(
             path,
             primary_index=IndexSpec("fdc-id", lambda d: str(d["fdcId"])),
             secondary_indices=[
@@ -43,7 +44,5 @@ class CompressedIndexedFoodDataJson(CloseViaStack, AbstractIndexedFoodDataJson):
                 ),
             ],
             mode=mode,
-        )
-        obj = cls(compressed_indexed_json=compressed_indexed_json)
-        obj.close_stack.enter_context(compressed_indexed_json)
-        return obj
+        ) as compressed_indexed_json:
+            yield cls(compressed_indexed_json=compressed_indexed_json)

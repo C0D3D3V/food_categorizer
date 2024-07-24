@@ -1,9 +1,7 @@
 import csv
+from contextlib import contextmanager
 from os import PathLike
-from typing import Generator, Iterable, Optional, TypedDict, Union
-
-from .utils.close_on_exit import CloseOnExit
-from .utils.close_via_stack import CloseViaStack
+from typing import Generator, Iterable, Iterator, Optional, Self, TypedDict, Union
 
 
 class ReferenceSampleDict(TypedDict):
@@ -13,13 +11,20 @@ class ReferenceSampleDict(TypedDict):
     description: Optional[str]
 
 
-class ReferenceSamplesCsv(CloseViaStack, CloseOnExit):
+class ReferenceSamplesCsv:
     """
     CSV file containing reference samples.
 
     Note that this follows file semantics, meaning there is a cursor and you have
     to be aware of whether a method resets the cursor to the beginning of the
     file before doing anything or not.
+    'r'	open for reading (default)
+    'w'	open for writing, truncating the file first
+    'x'	open for exclusive creation, failing if the file already exists
+    'a'	open for writing, appending to the end of file if it exists
+    'b'	binary mode
+    't' text mode (default)
+    '+'	open for updating (reading and writing)
     """
 
     def __init__(
@@ -33,30 +38,49 @@ class ReferenceSamplesCsv(CloseViaStack, CloseOnExit):
         self.csv_writer = csv_writer
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
         mode="r+",
-    ) -> "ReferenceSamplesCsv":
+    ) -> Iterator[Self]:
         """
         Opens CSV file for reading and/or writing depending on the given mode.
         """
-        file = open(path, mode)
-        csv_reader = None
-        csv_writer = None
-        if any(m in mode for m in "wa+"):
-            csv_writer = csv.DictWriter(
-                file,
-                ["fdc_id", "expected_category", "known_failure", "description"],
-                lineterminator="\n",
-            )
-        if any(m in mode for m in "r+"):
-            csv_reader = csv.DictReader(file)
-        if csv_reader is None and csv_writer is None:
-            raise ValueError("invalid mode: {repr(mode)}")
-        obj = cls(file=file, csv_reader=csv_reader, csv_writer=csv_writer)
-        obj.close_stack.enter_context(file)
-        return obj
+        with open(path, mode, encoding='utf-8') as file:
+            csv_writer = None
+            if any(m in mode for m in "wa+"):
+                csv_writer = csv.DictWriter(
+                    file,
+                    ["fdc_id", "expected_category", "known_failure", "description"],
+                    lineterminator="\n",
+                )
+
+            csv_reader = None
+            if any(m in mode for m in "r+"):
+                csv_reader = csv.DictReader(file)
+
+            if csv_reader is None and csv_writer is None:
+                raise ValueError("invalid mode: {repr(mode)}")
+
+            yield cls(file=file, csv_reader=csv_reader, csv_writer=csv_writer)
+
+    def _reset_and_write_header(self):
+        assert self.csv_writer is not None
+        self.file.seek(0)
+        self.file.truncate()
+        self.csv_writer.writeheader()
+
+    def write_reference_sample_dict(self, d: ReferenceSampleDict):
+        assert self.csv_writer is not None
+        self.csv_writer.writerow(
+            {
+                "fdc_id": d["fdc_id"],
+                "expected_category": d["expected_category"],
+                "known_failure": "Y" if d["known_failure"] else "N",
+                "description": d.get("description"),
+            }
+        )
 
     def reset_and_write_reference_sample_dicts(self, ds: Iterable[ReferenceSampleDict]):
         self._reset_and_write_header()
@@ -78,27 +102,10 @@ class ReferenceSamplesCsv(CloseViaStack, CloseOnExit):
         self.file.seek(orig_pos)
         return is_empty
 
-    def _reset_and_write_header(self):
-        assert self.csv_writer is not None
-        self.file.seek(0)
-        self.file.truncate()
-        self.csv_writer.writeheader()
-
     def append_reference_sample_dict(self, d: ReferenceSampleDict):
         assert self.csv_writer is not None
-        self.file.seek(0, 2)
+        self.file.seek(0, 2)  # set cursor to end of file
         self.write_reference_sample_dict(d)
-
-    def write_reference_sample_dict(self, d: ReferenceSampleDict):
-        assert self.csv_writer is not None
-        self.csv_writer.writerow(
-            {
-                "fdc_id": d["fdc_id"],
-                "expected_category": d["expected_category"],
-                "known_failure": "Y" if d["known_failure"] else "N",
-                "description": d.get("description"),
-            }
-        )
 
     def read_all_reference_sample_dicts(self) -> Generator[ReferenceSampleDict, None, None]:
         """

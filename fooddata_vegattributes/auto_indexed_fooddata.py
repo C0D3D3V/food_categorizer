@@ -17,9 +17,10 @@ def auto_compressed_indexed_fooddata_json(
 ):
     for attempt in range(2):
         try:
-            cifj = CompressedIndexedFoodDataJson.from_path(compressed_indexed_json_path)
-            logger.info("indexed JSON archive found")
-            break
+            with CompressedIndexedFoodDataJson.from_path(compressed_indexed_json_path) as cifj:
+                logger.info("indexed JSON archive found")
+                yield cifj
+                break
         except (FileNotFoundError, BadZipFile):
             if attempt > 0:
                 raise
@@ -27,6 +28,5 @@ def auto_compressed_indexed_fooddata_json(
             food_ds = load_fooddata_callback()
             with CompressedIndexedFoodDataJson.from_path(compressed_indexed_json_path, "w") as cifj:
                 cifj.write_fooddata_dicts(food_ds)
-            logger.info("done writing indexed JSON, trying to load again")
-    with cifj:
-        yield cifj
+                logger.info("done writing indexed JSON, trying to load again")
+                yield cifj

@@ -2,8 +2,6 @@ from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
 from typing import Callable, Generic, Iterable, Sequence, TypeVar
 
-from ..close_on_exit import CloseOnExit
-
 T = TypeVar("T")  # JSONable
 
 
@@ -17,12 +15,9 @@ class IndexSpec(Generic[T]):
         return cls(name, lambda x: x[name])
 
 
-class AbstractIndexedJsonableStore(Generic[T], CloseOnExit, metaclass=ABCMeta):
+class AbstractIndexedJsonableStore(Generic[T], metaclass=ABCMeta):
     primary_index: IndexSpec
     secondary_indices: Sequence[IndexSpec]
-
-    @abstractmethod
-    def close(self): ...
 
     @abstractmethod
     def put_entries(self, entries: Iterable[T]): ...

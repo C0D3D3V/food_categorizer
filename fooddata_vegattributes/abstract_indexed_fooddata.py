@@ -2,15 +2,11 @@ from abc import ABCMeta, abstractmethod
 from typing import Iterable, Union
 
 from .fooddata import FoodDataDict
-from .utils.close_on_exit import CloseOnExit
 from .utils.indexed_jsonable_store import AbstractIndexedJsonableStore
 
 
-class AbstractIndexedFoodDataJson(CloseOnExit, metaclass=ABCMeta):
+class AbstractIndexedFoodDataJson(metaclass=ABCMeta):
     indexed_json: AbstractIndexedJsonableStore
-
-    @abstractmethod
-    def close(self): ...
 
     def write_fooddata_dicts(self, ds: Iterable[FoodDataDict]):
         self.indexed_json.put_entries(ds)

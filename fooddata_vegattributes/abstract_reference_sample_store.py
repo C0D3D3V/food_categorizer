@@ -1,14 +1,10 @@
 from abc import ABCMeta, abstractmethod
-from contextlib import AbstractContextManager
 from typing import Iterable, Mapping, Sequence
 
 from .reference_sample import ReferenceSample
 
 
-class AbstractReferenceSampleStore(AbstractContextManager, metaclass=ABCMeta):
-    @abstractmethod
-    def close(self): ...
-
+class AbstractReferenceSampleStore(metaclass=ABCMeta):
     @abstractmethod
     def iter_all(self) -> Iterable[ReferenceSample]: ...
 

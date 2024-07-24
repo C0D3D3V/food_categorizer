@@ -1,8 +1,8 @@
 import json
+from contextlib import contextmanager
 from os import PathLike
-from typing import Generic, Iterable, Tuple, Union
+from typing import Generic, Iterable, Self, Tuple, Union
 
-from ..close_via_stack import CloseViaStack
 from .abstract_indexable_linkable_bytes_store import AbstractIndexableLinkableBytesStore
 from .abstract_indexable_linkable_jsonable_store import (
     AbstractIndexableLinkableJsonableStore,
@@ -18,11 +18,12 @@ from .zipped_indexable_linkable_bytes_store import (
 )
 
 
-class ZippedIndexableLinkableJsonableStore(CloseViaStack, AbstractIndexableLinkableJsonableStore, Generic[T]):
+class ZippedIndexableLinkableJsonableStore(AbstractIndexableLinkableJsonableStore, Generic[T]):
     def __init__(self, bytes_store: AbstractIndexableLinkableBytesStore):
         self.bytes_store = bytes_store
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
@@ -30,20 +31,18 @@ class ZippedIndexableLinkableJsonableStore(CloseViaStack, AbstractIndexableLinka
         compression=ZIP_DEFLATED,
         compresslevel=None,
         caching=True,
-    ) -> "ZippedIndexableLinkableJsonableStore":
+    ) -> Iterable[Self]:
         """
         Opens store for reading or writing depending on the given mode.
         """
         bytes_store_cls = CachingZippedIndexableLinkableBytesStore if caching else ZippedIndexableLinkableBytesStore
-        bytes_store = bytes_store_cls.from_path(
+        with bytes_store_cls.from_path(
             path,
             mode=mode,
             compression=compression,
             compresslevel=compresslevel,
-        )
-        obj = cls(bytes_store=bytes_store)
-        obj.close_stack.enter_context(bytes_store)
-        return obj
+        ) as bytes_store:
+            yield cls(bytes_store=bytes_store)
 
     def put_entries(self, index_name: str, index_values_and_data: Iterable[Tuple[str, T]]):
         self.bytes_store.put_entries(

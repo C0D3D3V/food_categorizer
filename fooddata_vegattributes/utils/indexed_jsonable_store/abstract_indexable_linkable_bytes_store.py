@@ -1,8 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from typing import Dict, Iterable, List, Tuple
 
-from ..close_on_exit import CloseOnExit
-
 # links are (confusingly) 1-to-n; should probably be named tags or secondary
 # indices or something like that
 LinkTargets = List[Tuple[str, str]]  # TODO rename
@@ -10,9 +8,7 @@ LinksForSourceIndexName = Dict[str, LinkTargets]
 Links = Dict[str, LinksForSourceIndexName]
 
 
-class AbstractIndexableLinkableBytesStore(CloseOnExit, metaclass=ABCMeta):
-    @abstractmethod
-    def close(self): ...
+class AbstractIndexableLinkableBytesStore(metaclass=ABCMeta):
 
     @abstractmethod
     def put_entries(self, index_name: str, index_values_and_data: Iterable[Tuple[str, bytes]]): ...

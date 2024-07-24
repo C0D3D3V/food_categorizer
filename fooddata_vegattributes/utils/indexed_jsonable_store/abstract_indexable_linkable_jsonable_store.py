@@ -1,15 +1,12 @@
 from abc import ABCMeta, abstractmethod
 from typing import Generic, Iterable, Tuple, TypeVar
 
-from ..close_on_exit import CloseOnExit
 from .abstract_indexable_linkable_bytes_store import LinkTargets
 
 T = TypeVar("T")  # JSONable
 
 
-class AbstractIndexableLinkableJsonableStore(Generic[T], CloseOnExit, metaclass=ABCMeta):
-    @abstractmethod
-    def close(self): ...
+class AbstractIndexableLinkableJsonableStore(Generic[T], metaclass=ABCMeta):
 
     @abstractmethod
     def put_entries(self, index_name: str, index_values_and_data: Iterable[Tuple[str, T]]): ...

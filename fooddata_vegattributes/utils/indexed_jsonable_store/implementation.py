@@ -1,4 +1,5 @@
 from collections import defaultdict
+from contextlib import contextmanager
 from os import PathLike
 from typing import (
     Generator,
@@ -12,7 +13,6 @@ from typing import (
     Union,
 )
 
-from ..close_via_stack import CloseViaStack
 from .abstract import AbstractIndexedJsonableStore, IndexSpec
 from .abstract_indexable_linkable_jsonable_store import (
     AbstractIndexableLinkableJsonableStore,
@@ -60,7 +60,6 @@ class AutoIndexingJsonableWriter(Generic[T]):
 
 
 class IndexedJsonableStore(
-    CloseViaStack,
     AbstractIndexedJsonableStore,
     Generic[T],
 ):
@@ -78,6 +77,7 @@ class IndexedJsonableStore(
         )
 
     @classmethod
+    @contextmanager
     def from_path(
         cls,
         path: Union[PathLike, str, bytes],
@@ -88,16 +88,14 @@ class IndexedJsonableStore(
         compresslevel=None,
         caching=True,
     ):
-        indexable_store = ZippedIndexableLinkableJsonableStore.from_path(
+        with ZippedIndexableLinkableJsonableStore.from_path(
             path=path,
             mode=mode,
             compression=compression,
             compresslevel=compresslevel,
             caching=caching,
-        )
-        obj = cls(indexable_store, primary_index, secondary_indices)
-        obj.close_stack.enter_context(indexable_store)
-        return obj
+        ) as indexable_store:
+            yield cls(indexable_store, primary_index, secondary_indices)
 
     def put_entries(self, entries: Iterable[T]):
         self.auto_indexing_writer.put_entries(entries)

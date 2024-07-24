@@ -34,12 +34,12 @@ class SrLegacyFoodDataDict(FoodDataDict):
 
 
 def load_survey_fooddata_dicts(path: Union[PathLike, str, bytes]) -> List[SurveyFoodDataDict]:
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         food_ds = json.load(f)["SurveyFoods"]
     return cast(List[SurveyFoodDataDict], food_ds)
 
 
 def load_sr_legacy_fooddata_dicts(path: Union[PathLike, str, bytes]) -> List[SrLegacyFoodDataDict]:
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         food_ds = json.load(f)["SRLegacyFoods"]
     return cast(List[SrLegacyFoodDataDict], food_ds)

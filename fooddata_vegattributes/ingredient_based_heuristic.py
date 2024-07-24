@@ -31,7 +31,7 @@ def categorize(
             input_food_stub.description,
             input_food_stub.ingredient_code,
         )
-        assert input_food_stub.fdc_id != food.fdc_id
+        assert input_food_stub.id != food.fdc_id
 
         try:
             input_food = food_store.get_by_ingredient_code(input_food_stub.ingredient_code)

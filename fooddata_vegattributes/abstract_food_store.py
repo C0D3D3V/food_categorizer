@@ -1,11 +1,10 @@
 from abc import ABCMeta, abstractmethod
-from contextlib import AbstractContextManager
 from typing import Iterable, Mapping
 
 from .food import Food
 
 
-class AbstractFoodStore(AbstractContextManager, metaclass=ABCMeta):
+class AbstractFoodStore(metaclass=ABCMeta):
     @abstractmethod
     def get_mapped_by_fdc_ids(self, fdc_ids: Iterable[int]) -> Mapping[int, Food]: ...
 
