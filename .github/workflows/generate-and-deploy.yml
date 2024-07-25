@@ -48,7 +48,7 @@ jobs:
           ln -s "$FOODDATA_DIR/$SURVEY_FOODDATA_JSON_FILENAME"
           ln -s "$FOODDATA_DIR/$SR_LEGACY_FOODDATA_JSON_FILENAME"
       - name: Generate VegAttributes JSON
-        run: fooddata-vegattributes generate
+        run: food-categorizer generate
       - name: "Write file name of generated JSON to env (TODO fix: use cmd output)"
         run: >
           echo
@@ -119,7 +119,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages-stage
-      url: https://v3gtb.github.io/fooddata-vegattributes/stage/
+      url: https://c0d3d3v.github.io/food-categorizer/stage/
     steps:
       - name: Check out repo
         uses: actions/checkout@v3

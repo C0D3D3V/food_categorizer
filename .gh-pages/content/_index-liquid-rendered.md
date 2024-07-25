@@ -67,7 +67,7 @@ can be viewed here:
 
 The script used to generate the data released by this project from FDC data via
 the heuristic explained above can be found in the project's
-[source code](https://github.com/c0d3d3v/fooddata-vegattributes).
+[source code](https://github.com/c0d3d3v/food-categorizer).
 
 Some incomplete notes on development can be found [here](dev-notes.html).
 

@@ -5,7 +5,7 @@ from food_categorizer.app.input_reference_samples import main as input_ref_main
 
 
 def main():
-    parser = ArgumentParser(prog="fooddata-vegattributes")
+    parser = ArgumentParser(prog="food-categorizer")
     subparsers = parser.add_subparsers()
 
     generate_parser = subparsers.add_parser("generate", help="Generate vegattributes JSON")

@@ -1,4 +1,4 @@
-# fooddata-vegattributes
+# food-categorizer
 
 The aim of this project is to provide free and open add-on data for the
 [USDA's FDC FoodData datasets](https://fdc.nal.usda.gov/download-datasets.html)
@@ -51,23 +51,23 @@ who knows.
 For debugging and demoing purposes, the current lists of foods in each category
 can be viewed here:
 
-- [VEGAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan) (4157 entries)
-- [VEGAN_OR_VEGETARIAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-or-vegetarian) (437 entries)
-- [VEGETARIAN](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegetarian) (2972 entries)
-- [VEGAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-or-omni) (4 entries)
-- [VEGAN_VEGETARIAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegan-vegetarian-or-omni) (169 entries)
-- [VEGETARIAN_OR_OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/vegetarian-or-omni) (49 entries)
-- [OMNI](https://v3gtb.github.io/fooddata-vegattributes/category-lists/omni) (5409 entries)
-- [UNCATEGORIZED](https://v3gtb.github.io/fooddata-vegattributes/category-lists/uncategorized) (330 entries)
+- [VEGAN](https://c0d3d3v.github.io/food-categorizer/category-lists/vegan) (4157 entries)
+- [VEGAN_OR_VEGETARIAN](https://c0d3d3v.github.io/food-categorizer/category-lists/vegan-or-vegetarian) (437 entries)
+- [VEGETARIAN](https://c0d3d3v.github.io/food-categorizer/category-lists/vegetarian) (2972 entries)
+- [VEGAN_OR_OMNI](https://c0d3d3v.github.io/food-categorizer/category-lists/vegan-or-omni) (4 entries)
+- [VEGAN_VEGETARIAN_OR_OMNI](https://c0d3d3v.github.io/food-categorizer/category-lists/vegan-vegetarian-or-omni) (169 entries)
+- [VEGETARIAN_OR_OMNI](https://c0d3d3v.github.io/food-categorizer/category-lists/vegetarian-or-omni) (49 entries)
+- [OMNI](https://c0d3d3v.github.io/food-categorizer/category-lists/omni) (5409 entries)
+- [UNCATEGORIZED](https://c0d3d3v.github.io/food-categorizer/category-lists/uncategorized) (330 entries)
 
 
 ## Source code and development
 
 The script used to generate the data released by this project from FDC data via
 the heuristic explained above can be found in the project's
-[source code](https://github.com/c0d3d3v/fooddata-vegattributes).
+[source code](https://github.com/c0d3d3v/food-categorizer).
 
-Some incomplete notes on development can be found [here](https://v3gtb.github.io/fooddata-vegattributes/dev-notes.html).
+Some incomplete notes on development can be found [here](https://c0d3d3v.github.io/food-categorizer/dev-notes.html).
 
 ## License
 

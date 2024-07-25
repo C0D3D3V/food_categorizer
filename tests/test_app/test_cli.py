@@ -1,14 +1,15 @@
 from unittest.mock import patch
 
 import pytest
-from food_categorizer.app.cli import main
+
+from food_categorizer.main import main
 
 
 def test_cli_help_doesnt_crash():
     """
     Really stupid test just to guard against the most egregious errors.
     """
-    with patch("sys.argv", ["fooddata-vegattributes", "--help"]):
+    with patch("sys.argv", ["food-categorizer", "--help"]):
         with pytest.raises(SystemExit) as exc_info:
             main()
         assert exc_info.value.args[0] == 0
@@ -19,7 +20,7 @@ def test_cli_dispatch(command):
     """
     Test that dispatching to handler functions works.
     """
-    with patch("sys.argv", ["fooddata-vegattributes", command]), patch(
+    with patch("sys.argv", ["food-categorizer", command]), patch(
         f"food_categorizer.app.cli.{command.replace('-', '_')}_main", autospec=True
     ) as mock_command_handler:
         with pytest.raises(SystemExit) as exc_info:

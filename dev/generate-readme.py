@@ -16,7 +16,7 @@ def make_urls_absolute(md_content, base_url):
     return re.sub(r"\]\((?!http)", f"]({base_url}", md_content)
 
 
-"https://v3gtb.github.io/fooddata-vegattributes/category-lists",
+"https://c0d3d3v.github.io/food-categorizer/category-lists",
 
 
 def render_readme_into_file(f):
@@ -49,7 +49,7 @@ def render_readme_into_file(f):
     )
 
     for line in proc.stdout:
-        f.write(make_urls_absolute(line, "https://v3gtb.github.io/fooddata-vegattributes/"))
+        f.write(make_urls_absolute(line, "https://c0d3d3v.github.io/food-categorizer/"))
 
 
 def is_repo_readme_changed():
