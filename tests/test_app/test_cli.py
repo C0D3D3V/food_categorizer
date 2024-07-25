@@ -15,13 +15,13 @@ def test_cli_help_doesnt_crash():
         assert exc_info.value.args[0] == 0
 
 
-@pytest.mark.parametrize("command", ["generate", "annotate-ref", "input-ref"])
+@pytest.mark.parametrize("command", ["generate", "input-ref"])
 def test_cli_dispatch(command):
     """
     Test that dispatching to handler functions works.
     """
     with patch("sys.argv", ["food-categorizer", command]), patch(
-        f"food_categorizer.app.cli.{command.replace('-', '_')}_main", autospec=True
+        f"food_categorizer.main.{command.replace('-', '_')}_main", autospec=True
     ) as mock_command_handler:
         with pytest.raises(SystemExit) as exc_info:
             main()
