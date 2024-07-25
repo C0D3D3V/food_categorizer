@@ -166,7 +166,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages-stage
-      url: https://c0d3d3v.github.io/food-categorizer/stage/
+      url: https://c0d3d3v.github.io/food_categorizer/stage/
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
