@@ -22,9 +22,6 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      #  - name: Downgrade setuptools
-      #    run: pip install setuptools==58.2.0
-
       - name: Install project's Python package
         run: pip install .
 
@@ -69,7 +66,7 @@ jobs:
       - name: Generate VegAttributes Database
         run: food-categorizer generate
 
-      - name: "Write file name of generated JSON to env (TODO fix: use cmd output)"
+      - name: "Write file name of generated Database to env (TODO fix: use cmd output)"
         run: >
           echo
           "GENERATED_SQLLITE_FILENAME=$GENERATED_SQLLITE_FILENAME"
@@ -215,7 +212,7 @@ jobs:
       - name: Install project's Python package
         run: pip install .
 
-      - name: Download generated JSON(s) artifact from generate step
+      - name: Download generated Database artifact from generate step
         uses: actions/download-artifact@v3
         with:
           name: generated-db
