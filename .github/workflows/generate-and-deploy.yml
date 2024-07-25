@@ -2,6 +2,9 @@ name: Generate and deploy
 
 on: [push]
 
+permissions:
+  contents: write
+
 env:
   SURVEY_FOODDATA_ZIP_URL: "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2022-10-28.zip"
   SURVEY_FOODDATA_ZIP_FILENAME: "FoodData_Central_survey_food_json_2022-10-28.zip"
@@ -209,7 +212,7 @@ jobs:
           echo "PAGES_TMPDIR=$PAGES_TMPDIR" >> "$GITHUB_ENV"
 
       - name: Check out GitHub Pages branch (gh-pages)
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
           clean: true
@@ -279,7 +282,7 @@ jobs:
           echo "PAGES_TMPDIR=$PAGES_TMPDIR" >> "$GITHUB_ENV"
 
       - name: Check out GitHub Pages branch (gh-pages)
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
           clean: true
