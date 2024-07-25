@@ -1,8 +1,7 @@
 from unittest.mock import patch
 
 import pytest
-
-from fooddata_vegattributes.app.cli import main
+from food_categorizer.app.cli import main
 
 
 def test_cli_help_doesnt_crash():
@@ -21,7 +20,7 @@ def test_cli_dispatch(command):
     Test that dispatching to handler functions works.
     """
     with patch("sys.argv", ["fooddata-vegattributes", command]), patch(
-        f"fooddata_vegattributes.app.cli.{command.replace('-', '_')}_main", autospec=True
+        f"food_categorizer.app.cli.{command.replace('-', '_')}_main", autospec=True
     ) as mock_command_handler:
         with pytest.raises(SystemExit) as exc_info:
             main()

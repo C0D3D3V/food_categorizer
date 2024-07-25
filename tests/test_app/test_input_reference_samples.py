@@ -5,11 +5,8 @@ from unittest.mock import patch
 
 import pytest
 
-from fooddata_vegattributes.app.input_reference_samples import main
-from fooddata_vegattributes.reference_samples_csv import (
-    ReferenceSampleDict,
-    ReferenceSamplesCsv,
-)
+from food_categorizer.app.input_reference_samples import main
+from food_categorizer.reference_samples_csv import ReferenceSamplesCsv
 
 from .conftest import FakeFoodDataJson, FakeFoodDataJsons
 
@@ -27,16 +24,16 @@ def patched_paths(fake_fooddata_jsons: FakeFoodDataJsons, tmp_path: Path):
     survey_json_path = fake_fooddata_jsons.survey.path
     sr_legacy_json_path = fake_fooddata_jsons.sr_legacy.path
     with patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".survey_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".survey_fooddata_json",
         survey_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
         sr_legacy_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".reference_samples_csv",
+        "food_categorizer.app.default_paths.default_dir_paths" ".reference_samples_csv",
         csv_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
         tmp_path / "compressed_indexed_fooddata.json.tar.xz",
     ):
         yield PatchedPaths(fake_survey_fooddata_json=fake_survey_fooddata_json, csv_path=csv_path)
@@ -52,7 +49,7 @@ def test_input_reference_samples(
 
     # patches
     with patch(
-        "fooddata_vegattributes.app.input_reference_samples.input",
+        "food_categorizer.app.input_reference_samples.input",
         side_effect=["s", "veg", EOFError("end of stream reached")],
     ):
         # run annotate-ref app
@@ -84,7 +81,7 @@ def test_input_reference_samples_quit(
 
     # patches
     with patch(
-        "fooddata_vegattributes.app.input_reference_samples.input",
+        "food_categorizer.app.input_reference_samples.input",
         side_effect=["s", quit_via_input],
     ):
         # run annotate-ref app

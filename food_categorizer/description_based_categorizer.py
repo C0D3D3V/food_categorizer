@@ -1,29 +1,8 @@
-from enum import auto
 from functools import reduce
 from typing import Dict, Set
 
-from .category import Category
-from .utils.enum import AutoStrEnum
-from .utils.parsing import MaxiMunchTokenFinder
-
-
-class TokenCategory(AutoStrEnum):
-    # "dummy" to block false positives, see below
-    BLOCK = auto()
-
-    # tokens that have precedence over the suggestions below
-    NULLIFIES_OMNI = auto()
-    NULLIFIES_OMNI_AND_VEGETARIAN = auto()
-
-    # tokens that suggest certain categories
-    SUGGESTS_VEGAN = auto()
-    SUGGESTS_VEGAN_OR_VEGETARIAN = auto()
-    SUGGESTS_VEGETARIAN = auto()
-    SUGGESTS_VEGAN_OR_OMNI = auto()
-    SUGGESTS_VEGAN_VEGETARIAN_OR_OMNI = auto()
-    SUGGESTS_VEGETARIAN_OR_OMNI = auto()
-    SUGGESTS_OMNI = auto()
-
+from food_categorizer.models import DietCategory, TokenCategory
+from food_categorizer.utils import MaxiMunchTokenFinder
 
 categories_to_tokens: Dict[TokenCategory, Set[str]] = {
     # the only purpose of these is to block false positives in actual categories,
@@ -476,7 +455,7 @@ all_tokens: Set[str] = reduce(lambda x, y: x | y, categories_to_tokens.values(),
 all_tokens_finder = MaxiMunchTokenFinder(all_tokens)
 
 
-def categorize(description: str) -> Category:
+def description_based_heuristic_categorize(description: str) -> DietCategory:
     names_in_desc = all_tokens_finder.find_all(description.lower())
 
     found_token_categories = {
@@ -501,23 +480,23 @@ def categorize(description: str) -> Category:
         }
 
     if TokenCategory.SUGGESTS_OMNI in found_token_categories:
-        return Category.OMNI
+        return DietCategory.OMNI
     if TokenCategory.SUGGESTS_VEGETARIAN_OR_OMNI in found_token_categories:
-        return Category.VEGETARIAN_OR_OMNI
+        return DietCategory.VEGETARIAN_OR_OMNI
     if TokenCategory.SUGGESTS_VEGAN_VEGETARIAN_OR_OMNI in found_token_categories:
         if TokenCategory.SUGGESTS_VEGETARIAN in found_token_categories:
-            return Category.VEGETARIAN_OR_OMNI
-        return Category.VEGAN_VEGETARIAN_OR_OMNI
+            return DietCategory.VEGETARIAN_OR_OMNI
+        return DietCategory.VEGAN_VEGETARIAN_OR_OMNI
     if TokenCategory.SUGGESTS_VEGAN_OR_OMNI in found_token_categories:
         if TokenCategory.SUGGESTS_VEGETARIAN in found_token_categories:
-            return Category.VEGETARIAN_OR_OMNI
-        return Category.VEGAN_OR_OMNI
+            return DietCategory.VEGETARIAN_OR_OMNI
+        return DietCategory.VEGAN_OR_OMNI
     if TokenCategory.SUGGESTS_VEGETARIAN in found_token_categories:
-        return Category.VEGETARIAN
+        return DietCategory.VEGETARIAN
     if TokenCategory.SUGGESTS_VEGAN_OR_VEGETARIAN in found_token_categories:
-        return Category.VEGAN_OR_VEGETARIAN
+        return DietCategory.VEGAN_OR_VEGETARIAN
     if TokenCategory.SUGGESTS_VEGETARIAN in found_token_categories:
-        return Category.VEGETARIAN
+        return DietCategory.VEGETARIAN
     if TokenCategory.SUGGESTS_VEGAN in found_token_categories:
-        return Category.VEGAN
-    return Category.UNCATEGORIZED
+        return DietCategory.VEGAN
+    return DietCategory.UNCATEGORIZED

@@ -2,8 +2,8 @@ from collections import ChainMap
 from pathlib import Path
 from unittest.mock import patch
 
-from fooddata_vegattributes.app.annotate_reference_samples import main
-from fooddata_vegattributes.reference_samples_csv import ReferenceSamplesCsv
+from food_categorizer.app.annotate_reference_samples import main
+from food_categorizer.reference_samples_csv import ReferenceSamplesCsv
 
 from .conftest import FakeFoodDataJsons
 
@@ -22,16 +22,16 @@ def test_annotate_reference_samples(
 
     # patches
     with patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".survey_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".survey_fooddata_json",
         survey_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
         sr_legacy_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".reference_samples_csv",
+        "food_categorizer.app.default_paths.default_dir_paths" ".reference_samples_csv",
         csv_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
         tmp_path / "compressed_indexed_fooddata.json.tar.xz",
     ):
         # run annotate-ref app

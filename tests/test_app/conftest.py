@@ -5,9 +5,8 @@ from pathlib import Path
 from typing import List
 
 import pytest
-
-from fooddata_vegattributes.fooddata import FoodDataDict
-from fooddata_vegattributes.reference_samples_csv import (
+from food_categorizer.fooddata import FoodDataDict
+from food_categorizer.reference_samples_csv import (
     ReferenceSampleDict,
     ReferenceSamplesCsv,
 )

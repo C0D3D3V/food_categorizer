@@ -4,9 +4,8 @@ from typing import List
 from unittest.mock import patch
 
 import pytest
-
-from fooddata_vegattributes.app.generate import main
-from fooddata_vegattributes.fooddata import FoodDataDict
+from food_categorizer.app.generate import main
+from food_categorizer.fooddata import FoodDataDict
 
 from .conftest import FakeFoodDataJsons, FakeReferenceSampleCsv
 
@@ -53,19 +52,19 @@ def test_generate_vegattributes_json(
 
     # patches
     with patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".survey_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".survey_fooddata_json",
         survey_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".sr_legacy_fooddata_json",
         sr_legacy_json_path,
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".compressed_indexed_fooddata_json",
         tmp_path / "compressed_indexed_fooddata.json.tar.xz",
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".reference_samples_csv",
+        "food_categorizer.app.default_paths.default_dir_paths" ".reference_samples_csv",
         tmp_path / "reference_samples.csv",
     ), patch(
-        "fooddata_vegattributes.app.default_paths.default_dir_paths" ".generated_vegattributes_json",
+        "food_categorizer.app.default_paths.default_dir_paths" ".generated_vegattributes_json",
         tmp_path / "generated_vegattributes.json",
     ) as generated_vegattributes_json_path:
         # run generate app

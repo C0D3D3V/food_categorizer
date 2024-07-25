@@ -1,4 +1,4 @@
-from fooddata_vegattributes.utils.random import select_n_random
+from food_categorizer.utils import select_n_random
 
 
 def test_select_n_random():

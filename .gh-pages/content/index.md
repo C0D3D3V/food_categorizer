@@ -1,6 +1,7 @@
 ---
 title: fooddata-vegattributes
 ---
+Inspired from [v3gtb](https://github.com/v3gtb/fooddata-vegattributes/)
 
 ## About
 
@@ -21,21 +22,6 @@ of each food and those of its ingredients, which are compared to hardcoded
 lists of phrases and the most likely categories they suggest. Neither this
 approach nor the lists of phrases are perfect, so there are still many
 incorrectly categorized foods that will hopefully become fewer over time.
-
-A rough estimate for a lower bound on the percentage of errors is the
-percentage of known failures in the [reference
-data](https://github.com/v3gtb/fooddata-vegattributes/blob/main/reference_samples.csv),
-which is currently {{ site.data.stats.failure_percentage }}%.
-The real percentage of errors will be larger than that as known failures are
-likely to be fixed, after which the lines in question remain in the reference
-data with the known failure mark removed to serve as regression tests.
-
-Note that categories listed in the reference data override those determined by
-the heuristic in the final exported data, so any individual known failure
-listed there has already been corrected.
-
-If you find any mistakes, feel free to
-[open an issue](https://github.com/v3gtb/fooddata-vegattributes/issues/new).
 
 ## Strictness
 
@@ -65,47 +51,6 @@ uniquely identified by e.g. their FDC ID and the file size is small anyway. As
 of now there are no plans to extend this project to the other FDC datasets, but
 who knows.
 
-## Download and file format
-
-The latest generated dataset can be found on the [GitHub releases
-page](https://github.com/v3gtb/fooddata-vegattributes/releases).
-
-It is shipped as a JSON file containing a list of entries of the form
-
-```json
-{
-  "fdcId": 123,
-  "vegCategory": "CATEGORY",
-  "description": "FDC description/name of the food",
-  # either:
-  "foodCode": 456,
-  # or:
-  "ndbNumber": 789
-}
-```
-
-where `CATEGORY` is one of the categories listed in the section below and
-`fdcId`, `foodCode`, `ndbNumber` and `description` correspond to the fields of
-the same names in the FDC datasets. `foodCode` only appears in the FNDDS data
-and `ndbNumber` only in the SR Legacy data, so which one of these will be
-present in a given entry depends on which dataset the food entry came from.
-The `description` is only included as a debugging help - the proper way to find
-it or any other properties of a given food is to perform a lookup in the FDC
-datasets by the given IDs.
-
-The FDC ID by itself is enough to uniquely identify foods, but it is my
-understanding that a new FDC ID is assigned to "the same" food on every release
-of a FDC dataset, while IDs like the Food Code and NDB Number remain the same,
-the idea being that the FDC ID identifies not just a food but also the specific
-properties (e.g. determined nutrients) associated with it in that release.
-So for easier cross-FDC-release compatibility, Food Code or NDB Number are
-included here as well. Note, however, that I'm not sure whether e.g. the
-ingredient list or description can be updated as well between releases, which
-would have the potential to change the categorization as determined by this
-project. In that case, it might be more correct to use only on the FDC ID,
-although the number of errors caused by updated descriptions or ingredients is
-expected to be much, much lower than that caused by failures of the heuristic.
-
 ## Web preview
 
 For debugging and demoing purposes, the current lists of foods in each category
@@ -117,7 +62,7 @@ can be viewed here:
 
 The script used to generate the data released by this project from FDC data via
 the heuristic explained above can be found in the project's
-[GitHub repository](https://github.com/v3gtb/fooddata-vegattributes).
+[source code](https://github.com/c0d3d3v/fooddata-vegattributes).
 
 Some incomplete notes on development can be found [here](dev-notes.html).
 

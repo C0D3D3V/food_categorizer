@@ -1,12 +1,11 @@
 import pytest
-
-from fooddata_vegattributes import combined_heuristic
-from fooddata_vegattributes.app.with_default_paths import (
+from food_categorizer import combined_heuristic
+from food_categorizer.app.with_default_paths import (
     default_food_and_reference_sample_stores,
 )
-from fooddata_vegattributes.categorization import Categorizer
-from fooddata_vegattributes.food import Food
-from fooddata_vegattributes.reference_sample import ReferenceSample
+from food_categorizer.categorization import Categorizer
+from food_categorizer.food import Food
+from food_categorizer.reference_sample import ReferenceSample
 
 
 def suitable_name(s: str):

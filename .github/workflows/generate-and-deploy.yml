@@ -68,11 +68,11 @@ jobs:
           curl -Os https://uploader.codecov.io/latest/linux/codecov;
           chmod +x codecov
       - name: Run tests
-        run: pytest --cov=./fooddata_vegattributes --cov-report=xml
+        run: pytest --cov=./food_categorizer --cov-report=xml
       - name: Upload coverage report
         run: ./codecov
       - name: Typecheck
-        run: mypy -p fooddata_vegattributes
+        run: mypy -p food_categorizer
       - name: Install Ruby/Jekyll requirements for README check
         run: sudo apt install -y bundler
       - name: Install bundle for Pages (also for README check)

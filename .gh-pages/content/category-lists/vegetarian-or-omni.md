@@ -1,49 +1,49 @@
-- Butter replacement, powder (fdcId: [2345720](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345720); via heuristic)
-- Butter replacement, without fat, powder (fdcId: [169894](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169894); via heuristic)
-- Cake, snack cakes, creme-filled, chocolate with frosting, low-fat, with added fiber (fdcId: [174082](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174082); via heuristic)
-- Cake, snack cakes, not chocolate, with icing or filling, low-fat, with added fiber (fdcId: [171839](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171839); via heuristic)
-- Candies, gumdrops, starch jelly pieces (fdcId: [167989](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167989); via heuristic)
-- Candy, NFS (fdcId: [2345885](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345885); via heuristic)
-- Candy, gummy (fdcId: [2345919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345919); via heuristic)
-- Candy, licorice (fdcId: [2345912](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345912); via heuristic)
-- Candy, non chocolate, other, NFS (fdcId: [2345910](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345910); via heuristic)
-- Cereal or granola bar, with rice cereal (fdcId: [2343596](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343596); via heuristic)
-- Cereal or granola bar, with yogurt coating (General Mills Nature Valley Chewy Granola Bar) (fdcId: [2343575](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343575); via heuristic)
-- Cereals ready-to-eat, POST HONEY BUNCHES OF OATS with cinnamon bunches (fdcId: [173020](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173020); via heuristic)
-- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS with vanilla bunches (fdcId: [173015](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173015); via heuristic)
-- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, honey roasted (fdcId: [168138](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168138); via reference)
-- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, pecan bunches (fdcId: [174663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174663); via heuristic)
-- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with almonds (fdcId: [169859](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169859); via heuristic)
-- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries (fdcId: [173019](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173019); via heuristic)
-- Cereals ready-to-eat, POST, Honey Nut Shredded Wheat (fdcId: [173894](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173894); via heuristic)
-- Cereals ready-to-eat, POST, Honeycomb Cereal (fdcId: [173889](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173889); via heuristic)
-- Cereals ready-to-eat, POST, Shredded Wheat, lightly frosted, spoon-size (fdcId: [173918](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173918); via heuristic)
-- Cereals ready-to-eat, POST, Shredded Wheat, original big biscuit (fdcId: [173910](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173910); via heuristic)
-- Cereals ready-to-eat, Post, Waffle Crisp (fdcId: [174628](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174628); via heuristic)
-- Cereals ready-to-eat, QUAKER, 100% Natural Granola, Oats, Wheat and Honey (fdcId: [173892](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173892); via heuristic)
-- Cereals ready-to-eat, QUAKER, QUAKER 100% Natural Granola with Oats, Wheat, Honey, and Raisins (fdcId: [172975](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172975); via heuristic)
-- Cereals, QUAKER, Instant Grits Product with American Cheese Flavor, dry (fdcId: [172993](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172993); via heuristic)
-- Cereals, QUAKER, Instant Grits, Butter flavor, dry (fdcId: [172977](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172977); via heuristic)
-- Cereals, QUAKER, Instant Oatmeal, DINOSAUR EGGS, Brown Sugar, dry (fdcId: [174637](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174637); via heuristic)
-- Cereals, QUAKER, Instant Oatmeal, fruit and cream variety, dry (fdcId: [174624](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174624); via heuristic)
-- Cereals, QUAKER, Instant Oatmeal, fruit and cream, variety of flavors, reduced sugar (fdcId: [174661](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174661); via heuristic)
-- Cereals, QUAKER, corn grits, instant, cheddar cheese flavor, dry (fdcId: [173898](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173898); via heuristic)
-- Champagne punch (fdcId: [2346249](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346249); via heuristic)
-- Cheese fondue (fdcId: [2341195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2341195); via heuristic)
-- Cookie, marshmallow and peanut butter, with oat cereal, no bake (fdcId: [2343422](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343422); via heuristic)
-- Cookie, marshmallow, with rice cereal, no bake (fdcId: [2343420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343420); via heuristic)
-- Cookie, peanut butter with rice cereal, no bake (fdcId: [2343436](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343436); via heuristic)
-- Dumpling, potato- or cheese-filled, frozen (fdcId: [169779](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169779); via heuristic)
-- Fast foods, strawberry banana smoothie made with ice and low-fat yogurt (fdcId: [170775](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170775); via heuristic)
-- Fruit smoothie juice drink, with dairy (fdcId: [2340915](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2340915); via heuristic)
-- Glug (fdcId: [2346273](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346273); via heuristic)
-- Grits, instant, made with water, NS as to fat (fdcId: [2343856](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343856); via heuristic)
-- Grits, instant, made with water, fat added (fdcId: [2343855](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343855); via heuristic)
-- Muffin, blueberry, commercially prepared, low-fat (fdcId: [167929](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167929); via heuristic)
-- Muffin, fruit, low fat (fdcId: [2343311](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343311); via heuristic)
-- Pierogi (fdcId: [2344204](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344204); via heuristic)
-- Sangria, red (fdcId: [2346270](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346270); via heuristic)
-- Sangria, white (fdcId: [2346271](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346271); via heuristic)
-- Snacks, KELLOGG, KELLOGG'S RICE KRISPIES TREATS Squares (fdcId: [169687](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169687); via heuristic)
-- Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, with yogurt coating (fdcId: [174802](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174802); via heuristic)
-- Sour dressing, non-butterfat, cultured, filled cream-type (fdcId: [171259](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171259); via heuristic)
+- Butter replacement, powder (fdcId: [2345720](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345720);
+- Butter replacement, without fat, powder (fdcId: [169894](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169894);
+- Cake, snack cakes, creme-filled, chocolate with frosting, low-fat, with added fiber (fdcId: [174082](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174082);
+- Cake, snack cakes, not chocolate, with icing or filling, low-fat, with added fiber (fdcId: [171839](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171839);
+- Candies, gumdrops, starch jelly pieces (fdcId: [167989](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167989);
+- Candy, NFS (fdcId: [2345885](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345885);
+- Candy, gummy (fdcId: [2345919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345919);
+- Candy, licorice (fdcId: [2345912](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345912);
+- Candy, non chocolate, other, NFS (fdcId: [2345910](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345910);
+- Cereal or granola bar, with rice cereal (fdcId: [2343596](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343596);
+- Cereal or granola bar, with yogurt coating (General Mills Nature Valley Chewy Granola Bar) (fdcId: [2343575](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343575);
+- Cereals ready-to-eat, POST HONEY BUNCHES OF OATS with cinnamon bunches (fdcId: [173020](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173020);
+- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS with vanilla bunches (fdcId: [173015](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173015);
+- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, honey roasted (fdcId: [168138](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168138);
+- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, pecan bunches (fdcId: [174663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174663);
+- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with almonds (fdcId: [169859](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169859);
+- Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries (fdcId: [173019](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173019);
+- Cereals ready-to-eat, POST, Honey Nut Shredded Wheat (fdcId: [173894](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173894);
+- Cereals ready-to-eat, POST, Honeycomb Cereal (fdcId: [173889](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173889);
+- Cereals ready-to-eat, POST, Shredded Wheat, lightly frosted, spoon-size (fdcId: [173918](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173918);
+- Cereals ready-to-eat, POST, Shredded Wheat, original big biscuit (fdcId: [173910](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173910);
+- Cereals ready-to-eat, Post, Waffle Crisp (fdcId: [174628](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174628);
+- Cereals ready-to-eat, QUAKER, 100% Natural Granola, Oats, Wheat and Honey (fdcId: [173892](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173892);
+- Cereals ready-to-eat, QUAKER, QUAKER 100% Natural Granola with Oats, Wheat, Honey, and Raisins (fdcId: [172975](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172975);
+- Cereals, QUAKER, Instant Grits Product with American Cheese Flavor, dry (fdcId: [172993](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172993);
+- Cereals, QUAKER, Instant Grits, Butter flavor, dry (fdcId: [172977](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172977);
+- Cereals, QUAKER, Instant Oatmeal, DINOSAUR EGGS, Brown Sugar, dry (fdcId: [174637](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174637);
+- Cereals, QUAKER, Instant Oatmeal, fruit and cream variety, dry (fdcId: [174624](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174624);
+- Cereals, QUAKER, Instant Oatmeal, fruit and cream, variety of flavors, reduced sugar (fdcId: [174661](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174661);
+- Cereals, QUAKER, corn grits, instant, cheddar cheese flavor, dry (fdcId: [173898](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173898);
+- Champagne punch (fdcId: [2346249](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346249);
+- Cheese fondue (fdcId: [2341195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2341195);
+- Cookie, marshmallow and peanut butter, with oat cereal, no bake (fdcId: [2343422](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343422);
+- Cookie, marshmallow, with rice cereal, no bake (fdcId: [2343420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343420);
+- Cookie, peanut butter with rice cereal, no bake (fdcId: [2343436](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343436);
+- Dumpling, potato- or cheese-filled, frozen (fdcId: [169779](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169779);
+- Fast foods, strawberry banana smoothie made with ice and low-fat yogurt (fdcId: [170775](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170775);
+- Fruit smoothie juice drink, with dairy (fdcId: [2340915](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2340915);
+- Glug (fdcId: [2346273](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346273);
+- Grits, instant, made with water, NS as to fat (fdcId: [2343856](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343856);
+- Grits, instant, made with water, fat added (fdcId: [2343855](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343855);
+- Muffin, blueberry, commercially prepared, low-fat (fdcId: [167929](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167929);
+- Muffin, fruit, low fat (fdcId: [2343311](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343311);
+- Pierogi (fdcId: [2344204](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344204);
+- Sangria, red (fdcId: [2346270](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346270);
+- Sangria, white (fdcId: [2346271](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346271);
+- Snacks, KELLOGG, KELLOGG'S RICE KRISPIES TREATS Squares (fdcId: [169687](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169687);
+- Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, with yogurt coating (fdcId: [174802](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174802);
+- Sour dressing, non-butterfat, cultured, filled cream-type (fdcId: [171259](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171259);
