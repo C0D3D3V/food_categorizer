@@ -3,14 +3,17 @@ name: Generate and deploy
 on: [push]
 
 env:
-  SURVEY_FOODDATA_ZIP_URL: 'https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2022-10-28.zip'
-  SURVEY_FOODDATA_ZIP_FILENAME: 'FoodData_Central_survey_food_json_2022-10-28.zip'
-  SURVEY_FOODDATA_JSON_FILENAME: 'FoodData_Central_survey_food_json_2022-10-28.json'
-  SR_LEGACY_FOODDATA_ZIP_URL: 'https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2021-10-28.zip'
-  SR_LEGACY_FOODDATA_ZIP_FILENAME: 'FoodData_Central_sr_legacy_food_json_2021-10-28.zip'
-  SR_LEGACY_FOODDATA_JSON_FILENAME: 'FoodData_Central_sr_legacy_food_json_2021-10-28.json'
+  SURVEY_FOODDATA_ZIP_URL: "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_json_2022-10-28.zip"
+  SURVEY_FOODDATA_ZIP_FILENAME: "FoodData_Central_survey_food_json_2022-10-28.zip"
+  SURVEY_FOODDATA_JSON_FILENAME: "FoodData_Central_survey_food_json_2022-10-28.json"
+  SR_LEGACY_FOODDATA_ZIP_URL: "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  SR_LEGACY_FOODDATA_ZIP_FILENAME: "FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  SR_LEGACY_FOODDATA_JSON_FILENAME: "FoodData_Central_sr_legacy_food_json_2021-10-28.json"
+  FOUNDATION_FOODDATA_ZIP_URL: "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_json_2024-04-18.zip"
+  FOUNDATION_FOODDATA_ZIP_FILENAME: "FoodData_Central_foundation_food_json_2024-04-18.zip"
+  FOUNDATION_FOODDATA_JSON_FILENAME: "foundationDownload.json"
   FOODDATA_DIR: fooddata
-  GENERATED_JSON_FILENAME: 'VegAttributes_for_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.json'
+  GENERATED_SQLLITE_FILENAME: "food_data.db"
 
 jobs:
   generate-and-test-and-publish:
@@ -18,16 +21,19 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+
       - name: Install project's Python package
         run: pip install -e .
+
       - name: Load USDA FDC FoodData from cache
         id: download
         uses: actions/cache@v3
         with:
           path: |
             ${{ env.FOODDATA_DIR }}
-            indexed_FoodData_Central_survey_and_sr_legacy_food_json_2022-10-28.jsons.zip
-          key: v4-${{ env.SURVEY_FOODDATA_ZIP_URL }}-${{ env.SR_LEGACY_FOODDATA_ZIP_URL }}
+            food_data.db.zip
+          key: v4-${{ env.SURVEY_FOODDATA_ZIP_URL }}-${{ env.SR_LEGACY_FOODDATA_ZIP_URL }}-${{ env.FOUNDATION_FOODDATA_ZIP_URL }}
+
       - name: Download USDA FDC FoodData
         if: steps.download.outputs.cache-hit != 'true'
         run: >
@@ -42,77 +48,96 @@ jobs:
               curl "$SR_LEGACY_FOODDATA_ZIP_URL" -o "$SR_LEGACY_FOODDATA_ZIP_FILENAME" &&
               unzip "$SR_LEGACY_FOODDATA_ZIP_FILENAME";
             fi
+            if [ ! -f "$FOUNDATION_FOODDATA_ZIP_FILENAME" ]; then
+              curl "$FOUNDATION_FOODDATA_ZIP_URL" -o "$FOUNDATION_FOODDATA_ZIP_FILENAME" &&
+              unzip "$FOUNDATION_FOODDATA_ZIP_FILENAME";
+            fi
           )
+
       - name: Set up symlinks for input files
         run: |
           ln -s "$FOODDATA_DIR/$SURVEY_FOODDATA_JSON_FILENAME"
           ln -s "$FOODDATA_DIR/$SR_LEGACY_FOODDATA_JSON_FILENAME"
-      - name: Generate VegAttributes JSON
+          ln -s "$FOODDATA_DIR/$FOUNDATION_FOODDATA_JSON_FILENAME"
+
+      - name: Generate Food Data Database
+        run: python create_sqllite_db.py
+
+      - name: Generate VegAttributes Database
         run: food-categorizer generate
+
       - name: "Write file name of generated JSON to env (TODO fix: use cmd output)"
         run: >
           echo
-          "GENERATED_JSON_FILENAME=$GENERATED_JSON_FILENAME"
+          "GENERATED_SQLLITE_FILENAME=$GENERATED_SQLLITE_FILENAME"
           >> $GITHUB_ENV
-      - name: Upload generated JSON(s) as GitHub artifact
+
+      - name: Upload generated Database as GitHub artifact
         uses: actions/upload-artifact@v3
         with:
-          name: generated-json
+          name: generated-db
           path: |
-            ${{ env.GENERATED_JSON_FILENAME }}
-            debug_${{ env.GENERATED_JSON_FILENAME }}
-      - name: Install test and dev dependencies
-        run: pip install -e .[test,dev]
-      - name: Install codecov uploader
-        run: >
-          curl -Os https://uploader.codecov.io/latest/linux/codecov;
-          chmod +x codecov
-      - name: Run tests
-        run: pytest --cov=./food_categorizer --cov-report=xml
-      - name: Upload coverage report
-        run: ./codecov
-      - name: Typecheck
-        run: mypy -p food_categorizer
+            ${{ env.GENERATED_SQLLITE_FILENAME }}
+
+      #  - name: Install test and dev dependencies
+      #    run: pip install -e .[test,dev]
+      #
+      #  - name: Install codecov uploader
+      #    run: >
+      #      curl -Os https://uploader.codecov.io/latest/linux/codecov;
+      #      chmod +x codecov
+      #  - name: Run tests
+      #    run: pytest --cov=./food_categorizer --cov-report=xml
+      #
+      #  - name: Upload coverage report
+      #    run: ./codecov
+      #
+      #  - name: Typecheck
+      #    run: mypy -p food_categorizer
+
       - name: Install Ruby/Jekyll requirements for README check
         run: sudo apt install -y bundler
+
       - name: Install bundle for Pages (also for README check)
         run: >
           cd .gh-pages/content && bundle install
+
       - name: Check that README.md is up to date
         run: pre-commit run --all-files
-      - name: Prepare release forms of generated JSON
+
+      - name: Prepare release forms of generated Database
         run: |
-          filename="${{ env.GENERATED_JSON_FILENAME }}"
+          filename="${{ env.GENERATED_SQLLITE_FILENAME }}"
           version="${{github.ref_name}}"
           # ZIP with full version in filename ("proper")
           new_filename="${filename%%.*}-$version.${filename#*.}"
           cp "$filename" "$new_filename"
           zipped_new_filename="${new_filename%.*}".zip
           zip "$zipped_new_filename" "$new_filename"
-          echo "PUBLISHABLE_ZIPPED_JSON_FILENAME=$zipped_new_filename" \
+          echo "PUBLISHABLE_ZIPPED_SQLLITE_FILENAME=$zipped_new_filename" \
           >> $GITHUB_ENV
-          # unzipped JSON with only major version in filename
-          raw_new_filename="${filename%%.*}-${version%%.*}.${filename#*.}"
-          cp "$filename" "$raw_new_filename"
-          echo "PUBLISHABLE_RAW_JSON_FILENAME=$raw_new_filename" \
+          # unzipped Database with only major version in filename
+          # raw_new_filename="${filename%%.*}-${version%%.*}.${filename#*.}"
+          # cp "$filename" "$raw_new_filename"
+          echo "PUBLISHABLE_RAW_SQLLITE_FILENAME=$new_filename" \
           >> $GITHUB_ENV
-      - name: Publish generated JSON as GitHub release
+
+      - name: Publish generated Database as GitHub release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            ${{ env.PUBLISHABLE_ZIPPED_JSON_FILENAME }}
-            ${{ env.PUBLISHABLE_RAW_JSON_FILENAME }}
+            ${{ env.PUBLISHABLE_ZIPPED_SQLLITE_FILENAME }}
+            ${{ env.PUBLISHABLE_RAW_SQLLITE_FILENAME }}
           fail_on_unmatched_files: true
           generate_release_notes: true
           append_body: true
           body: >
-            **Note for every release:** The ZIP and JSON file contain the same
+            **Note for every release:** The ZIP and SQLLITE file contain the same
             contents, the only purpose of the latter is to have the data
-            accessible as directly as possible, e.g. for JSON-handling services
-            that don't support fetching a file by glob pattern from the GitHub
-            API (hence only the major version in the filename) or unzipping
-            JSON before processing it further.
+            accessible as directly as possible, e.g. for handling services
+            that don't support unzipping SQLLITE before processing it further.
+
   deploy-pages-staging:
     needs: generate-and-test-and-publish
     if: "github.ref_type != 'tag' && github.ref_name != 'main'"
@@ -123,30 +148,37 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+
       - name: Install project's Python package
         run: pip install -e .
-      - name: Download generated JSON(s) artifact from generate step
+
+      - name: Download generated Database artifact from generate step
         uses: actions/download-artifact@v3
         with:
-          name: generated-json
+          name: generated-db
+
       - name: Generate GitHub Pages contents
         run: python .gh-pages/generate-pages.py
+
       - name: Write the fact that this is for stage into index page
         run: >
           ( echo '**NOTE:** This is the staging version of the docs!'
           'Nothing here constitutes official documentation.';
           cat .gh-pages/content/index.md ) > index2.md;
           mv index2.md .gh-pages/content/index.md
+
       - name: Copy GitHub Pages (staging) contents to temporary directory
         run: |
           PAGES_TMPDIR="$(mktemp -d)"
           cp -r .gh-pages/content/* "$PAGES_TMPDIR"
           echo "PAGES_TMPDIR=$PAGES_TMPDIR" >> "$GITHUB_ENV"
+
       - name: Check out GitHub Pages branch (gh-pages)
         uses: actions/checkout@v3
         with:
           ref: gh-pages
           clean: true
+
       - name: Clear stage working tree and copy Pages contents over it
         run: |
           shopt -s dotglob
@@ -156,6 +188,7 @@ jobs:
           git clean -xfd
           git rm -rf !(..|.|.git|.gitignore) || true
           cp -r "$PAGES_TMPDIR"/* ./
+
       - name: Commit and push changes for GitHub Pages
         run: |
           git config user.name 'github-actions-wf'
@@ -167,6 +200,7 @@ jobs:
             git commit -m 'Update GH pages contents'
             git push
           fi
+
   deploy-pages:
     needs: generate-and-test-and-publish
     if: "github.ref_type == 'tag' || github.ref_name == 'main'"
@@ -174,25 +208,31 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+
       - name: Install project's Python package
         run: pip install -e .
+
       - name: Download generated JSON(s) artifact from generate step
         uses: actions/download-artifact@v3
         with:
-          name: generated-json
+          name: generated-db
+
       - name: Generate GitHub Pages contents
         run: python .gh-pages/generate-pages.py
+
       - name: Copy GitHub Pages contents to temporary directory
         run: |
           PAGES_TMPDIR="$(mktemp -d)"
           mkdir -p "$PAGES_TMPDIR"
           cp -r .gh-pages/content/* "$PAGES_TMPDIR"
           echo "PAGES_TMPDIR=$PAGES_TMPDIR" >> "$GITHUB_ENV"
+
       - name: Check out GitHub Pages branch (gh-pages)
         uses: actions/checkout@v3
         with:
           ref: gh-pages
           clean: true
+
       - name: Clear working tree and copy Pages contents over it
         run: |
           shopt -s dotglob
@@ -200,6 +240,7 @@ jobs:
           git clean -xfd
           git rm -rf !(..|.|.git|.gitignore)
           cp -r "$PAGES_TMPDIR"/* ./
+
       - name: Commit and push changes for GitHub Pages
         run: |
           git config user.name 'github-actions-wf'
