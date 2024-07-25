@@ -1,169 +1,169 @@
-- Alcoholic Beverage, wine, table, red, Barbera (fdcId: [173191](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173191);
-- Alcoholic Beverage, wine, table, red, Burgundy (fdcId: [173208](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173208);
-- Alcoholic Beverage, wine, table, red, Cabernet Franc (fdcId: [174834](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174834);
-- Alcoholic Beverage, wine, table, red, Cabernet Sauvignon (fdcId: [174833](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174833);
-- Alcoholic Beverage, wine, table, red, Carignane (fdcId: [174840](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174840);
-- Alcoholic Beverage, wine, table, red, Claret (fdcId: [173194](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173194);
-- Alcoholic Beverage, wine, table, red, Gamay (fdcId: [171872](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171872);
-- Alcoholic Beverage, wine, table, red, Lemberger (fdcId: [174838](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174838);
-- Alcoholic Beverage, wine, table, red, Merlot (fdcId: [171925](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171925);
-- Alcoholic Beverage, wine, table, red, Mouvedre (fdcId: [174109](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174109);
-- Alcoholic Beverage, wine, table, red, Petite Sirah (fdcId: [173193](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173193);
-- Alcoholic Beverage, wine, table, red, Pinot Noir (fdcId: [174835](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174835);
-- Alcoholic Beverage, wine, table, red, Sangiovese (fdcId: [174839](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174839);
-- Alcoholic Beverage, wine, table, red, Syrah (fdcId: [174836](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174836);
-- Alcoholic Beverage, wine, table, red, Zinfandel (fdcId: [173192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173192);
-- Alcoholic beverage, wine, cooking (fdcId: [169070](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169070);
-- Alcoholic beverage, wine, dessert, dry (fdcId: [175112](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175112);
-- Alcoholic beverage, wine, dessert, sweet (fdcId: [173176](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173176);
-- Alcoholic beverage, wine, light (fdcId: [169071](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169071);
-- Alcoholic beverage, wine, table, all (fdcId: [173185](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173185);
-- Alcoholic beverage, wine, table, red (fdcId: [173190](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173190);
-- Alcoholic beverage, wine, table, white (fdcId: [174837](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174837);
-- Alcoholic beverage, wine, table, white, Chardonnay (fdcId: [174110](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174110);
-- Alcoholic beverage, wine, table, white, Chenin Blanc (fdcId: [173195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173195);
-- Alcoholic beverage, wine, table, white, Fume Blanc (fdcId: [173196](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173196);
-- Alcoholic beverage, wine, table, white, Gewurztraminer (fdcId: [174843](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174843);
-- Alcoholic beverage, wine, table, white, Muller Thurgau (fdcId: [173198](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173198);
-- Alcoholic beverage, wine, table, white, Muscat (fdcId: [174849](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174849);
-- Alcoholic beverage, wine, table, white, Pinot Blanc (fdcId: [174848](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174848);
-- Alcoholic beverage, wine, table, white, Pinot Gris (Grigio) (fdcId: [174841](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174841);
-- Alcoholic beverage, wine, table, white, Riesling (fdcId: [173200](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173200);
-- Alcoholic beverage, wine, table, white, Sauvignon Blanc (fdcId: [173201](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173201);
-- Alcoholic beverage, wine, table, white, Semillon (fdcId: [174845](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174845);
-- Alcoholic beverage, wine, table, white, late harvest (fdcId: [173202](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173202);
-- Alcoholic beverage, wine, table, white, late harvest, Gewurztraminer (fdcId: [174844](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174844);
-- Alcoholic beverages, wine, rose (fdcId: [171908](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171908);
-- Beverages, PEPSICO QUAKER, Gatorade G2, low calorie (fdcId: [174178](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174178);
-- Beverages, PEPSICO QUAKER, Gatorade, G performance O 2, ready-to-drink. (fdcId: [173660](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173660);
-- Beverages, Wine, non-alcoholic (fdcId: [174157](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174157);
-- Beverages, drink mix, QUAKER OATS, GATORADE, orange flavor, powder (fdcId: [173659](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173659);
-- Cabbage, kimchi (fdcId: [170392](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170392);
-- Cereal or granola bar (General Mills Nature Valley Chewy Trail Mix) (fdcId: [2343574](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343574);
-- Cereal or granola bar (General Mills Nature Valley Sweet and Salty Granola Bar) (fdcId: [2343576](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343576);
-- Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar) (fdcId: [2343566](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343566);
-- Cereal or granola bar (Kellogg's Nutri-Grain Yogurt Bar) (fdcId: [2343567](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343567);
-- Cereal or granola bar (Quaker Chewy 90 Calorie Granola Bar) (fdcId: [2343579](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343579);
-- Cereal or granola bar (Quaker Chewy Dipps Granola Bar) (fdcId: [2343581](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343581);
-- Cereal or granola bar (Quaker Granola Bites) (fdcId: [2343582](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343582);
-- Cereal or granola bar, chocolate coated, NFS (fdcId: [2343590](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343590);
-- Cereal or granola bar, lowfat, NFS (fdcId: [2343585](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343585);
-- Cereals ready-to-eat, GENERAL MILLS, CHEERIOS (fdcId: [173884](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173884);
-- Cereals ready-to-eat, POST Bran Flakes (fdcId: [173888](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173888);
-- Cereals ready-to-eat, POST GREAT GRAINS Banana Nut Crunch (fdcId: [169870](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169870);
-- Cereals ready-to-eat, POST GREAT GRAINS Cranberry Almond Crunch (fdcId: [173005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173005);
-- Cereals ready-to-eat, POST Raisin Bran Cereal (fdcId: [171650](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171650);
-- Cereals ready-to-eat, POST SELECTS Blueberry Morning (fdcId: [173919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173919);
-- Cereals ready-to-eat, POST SELECTS Maple Pecan Crunch (fdcId: [174653](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174653);
-- Cereals ready-to-eat, POST, ALPHA-BITS (fdcId: [171641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171641);
-- Cereals ready-to-eat, POST, COCOA PEBBLES (fdcId: [173885](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173885);
-- Cereals ready-to-eat, POST, FRUITY PEBBLES (fdcId: [171645](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171645);
-- Cereals ready-to-eat, POST, GOLDEN CRISP (fdcId: [171652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171652);
-- Cereals ready-to-eat, POST, GRAPE-NUTS Cereal (fdcId: [171647](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171647);
-- Cereals ready-to-eat, POST, GRAPE-NUTS Flakes (fdcId: [171648](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171648);
-- Cereals ready-to-eat, POST, GREAT GRAINS Crunchy Pecan Cereal (fdcId: [169862](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169862);
-- Cereals ready-to-eat, POST, GREAT GRAINS, Raisin, Date & Pecan (fdcId: [169041](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169041);
-- Cereals ready-to-eat, POST, Shredded Wheat n' Bran, spoon-size (fdcId: [167715](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167715);
-- Cereals ready-to-eat, POST, Shredded Wheat, original spoon-size (fdcId: [173911](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173911);
-- Cereals ready-to-eat, QUAKER Oatmeal Squares, Golden Maple (fdcId: [173014](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173014);
-- Cereals ready-to-eat, QUAKER WHOLE HEARTS oat cereal (fdcId: [173921](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173921);
-- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH (fdcId: [171642](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171642);
-- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH with CRUNCHBERRIES (fdcId: [171643](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171643);
-- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH'S Halloween Crunch (fdcId: [174657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174657);
-- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH'S PEANUT BUTTER CRUNCH (fdcId: [171644](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171644);
-- Cereals ready-to-eat, QUAKER, Cap'n Crunch's OOPS! All Berries Cereal (fdcId: [173013](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173013);
-- Cereals ready-to-eat, QUAKER, Christmas Crunch (fdcId: [174652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174652);
-- Cereals ready-to-eat, QUAKER, KING VITAMAN (fdcId: [173890](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173890);
-- Cereals ready-to-eat, QUAKER, Low Fat 100% Natural Granola with Raisins (fdcId: [172976](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172976);
-- Cereals ready-to-eat, QUAKER, MOTHER'S COCOA BUMPERS (fdcId: [174634](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174634);
-- Cereals ready-to-eat, QUAKER, MOTHER'S Cinnamon Oat Crunch (fdcId: [174632](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174632);
-- Cereals ready-to-eat, QUAKER, MOTHER'S PEANUT BUTTER BUMPERS Cereal (fdcId: [172985](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172985);
-- Cereals ready-to-eat, QUAKER, MOTHER'S Toasted Oat Bran cereal (fdcId: [172986](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172986);
-- Cereals ready-to-eat, QUAKER, Maple Brown Sugar LIFE Cereal (fdcId: [174659](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174659);
-- Cereals ready-to-eat, QUAKER, Natural Granola Apple Cranberry Almond (fdcId: [174658](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174658);
-- Cereals ready-to-eat, QUAKER, Oatmeal Squares (fdcId: [174622](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174622);
-- Cereals ready-to-eat, QUAKER, Oatmeal Squares, cinnamon (fdcId: [174623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174623);
-- Cereals ready-to-eat, QUAKER, QUAKER CRUNCHY BRAN (fdcId: [173886](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173886);
-- Cereals ready-to-eat, QUAKER, QUAKER OAT CINNAMON LIFE (fdcId: [174620](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174620);
-- Cereals ready-to-eat, QUAKER, QUAKER OAT LIFE, plain (fdcId: [173891](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173891);
-- Cereals ready-to-eat, QUAKER, QUAKER Puffed Rice (fdcId: [171651](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171651);
-- Cereals ready-to-eat, QUAKER, QUAKER Puffed Wheat (fdcId: [171669](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171669);
-- Cereals ready-to-eat, QUAKER, SWEET CRUNCH/QUISP (fdcId: [171649](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171649);
-- Cereals ready-to-eat, QUAKER, Shredded Wheat, bagged cereal (fdcId: [172987](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172987);
-- Cereals ready-to-eat, QUAKER, Toasted Multigrain Crisps (fdcId: [172974](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172974);
-- Cereals, Oat Bran, QUAKER, QUAKER/MOTHER'S Oat Bran, prepared with water, salt (fdcId: [172978](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172978);
-- Cereals, QUAKER, Instant Oatmeal Organic, Regular (fdcId: [174660](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174660);
-- Cereals, QUAKER, Instant Oatmeal, Apple and Cinnamon, reduced sugar (fdcId: [174662](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174662);
-- Cereals, QUAKER, Instant Oatmeal, Banana Bread, dry (fdcId: [174638](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174638);
-- Cereals, QUAKER, Instant Oatmeal, Cinnamon Spice, reduced sugar (fdcId: [173016](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173016);
-- Cereals, QUAKER, Instant Oatmeal, Cinnamon Swirl, high fiber (fdcId: [171682](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171682);
-- Cereals, QUAKER, Instant Oatmeal, Cinnamon-Spice, dry (fdcId: [174636](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174636);
-- Cereals, QUAKER, Instant Oatmeal, Raisin and Spice, dry (fdcId: [172991](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172991);
-- Cereals, QUAKER, Instant Oatmeal, apples and cinnamon, dry (fdcId: [171663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171663);
-- Cereals, QUAKER, Instant Oatmeal, maple and brown sugar, dry (fdcId: [173907](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173907);
-- Cereals, QUAKER, Instant Oatmeal, raisins, dates and walnuts, dry (fdcId: [174625](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174625);
-- Cereals, QUAKER, Instant Oatmeal, weight control, cinnamon (fdcId: [173926](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173926);
-- Cereals, QUAKER, Oat Bran, QUAKER/MOTHER'S Oat Bran, dry (fdcId: [174626](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174626);
-- Cereals, QUAKER, Oat Bran, QUAKER/MOTHER'S Oat Bran, prepared with water, no salt (fdcId: [174627](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174627);
-- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, dry (fdcId: [172972](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172972);
-- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, prepared with water, no salt (fdcId: [172979](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172979);
-- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, prepared with water, salt (fdcId: [172980](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172980);
-- Cereals, QUAKER, Quick Oats with Iron, Dry (fdcId: [174640](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174640);
-- Cereals, QUAKER, Quick Oats, Dry (fdcId: [172989](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172989);
-- Cereals, QUAKER, Weight Control Instant Oatmeal, banana bread (fdcId: [173923](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173923);
-- Cereals, QUAKER, Weight Control Instant Oatmeal, maple and brown sugar (fdcId: [173922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173922);
-- Cereals, QUAKER, Whole Wheat Natural Cereal, dry (fdcId: [174641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174641);
-- Cereals, QUAKER, corn grits, instant, plain, dry (fdcId: [171656](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171656);
-- Cereals, QUAKER, corn grits, instant, plain, prepared (microwaved or boiling water added), without salt (fdcId: [173897](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173897);
-- Cereals, QUAKER, hominy grits, white, quick, dry (fdcId: [174629](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174629);
-- Cereals, QUAKER, hominy grits, white, regular, dry (fdcId: [174630](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174630);
-- Cereals, QUAKER, oatmeal, REAL MEDLEYS, apple walnut, dry (fdcId: [171684](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171684);
-- Cereals, QUAKER, oatmeal, REAL MEDLEYS, blueberry hazelnut, dry (fdcId: [171683](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171683);
-- Cereals, QUAKER, oatmeal, REAL MEDLEYS, cherry pistachio, dry (fdcId: [173925](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173925);
-- Cereals, QUAKER, oatmeal, REAL MEDLEYS, peach almond, dry (fdcId: [173924](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173924);
-- Cereals, QUAKER, oatmeal, REAL MEDLEYS, summer berry, dry (fdcId: [171685](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171685);
-- Cocoa, dry powder, hi-fat or breakfast, processed with alkali (fdcId: [170657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170657);
-- Fat, goose (fdcId: [173572](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173572);
-- Grits, instant, made with water, no added fat (fdcId: [2343854](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343854);
-- Kimchi (fdcId: [2345604](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345604);
-- Manhattan (fdcId: [2346213](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346213);
-- Margarine-like spread, SMART BEAT Super Light without saturated fat (fdcId: [173608](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173608);
-- Martini (fdcId: [2346215](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346215);
-- Mimosa (fdcId: [2346217](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346217);
-- Nutritional drink or shake, ready-to-drink (Kellogg's Special K Protein) (fdcId: [2346296](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346296);
-- Nutritional powder mix (Kellogg's Special K20 Protein Water) (fdcId: [2346312](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346312);
-- Oatmeal, multigrain (fdcId: [2343882](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343882);
-- Oil, industrial, canola (partially hydrogenated) oil for deep fat frying (fdcId: [172360](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172360);
-- Oil, industrial, palm and palm kernel, filling fat (non-hydrogenated) (fdcId: [172368](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172368);
-- Oil, industrial, palm kernel (hydrogenated), filling fat (fdcId: [173603](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173603);
-- Rob Roy (fdcId: [2346222](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346222);
-- Sea lion, Steller, fat (Alaska Native) (fdcId: [169825](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169825);
-- Seeds, sesame flour, high-fat (fdcId: [170192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170192);
-- Seeds, sesame flour, low-fat (fdcId: [170560](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170560);
-- Snack bar, oatmeal (fdcId: [2343583](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343583);
-- Snacks, GENERAL MILLS, BETTY CROCKER Fruit Roll Ups, berry flavored, with vitamin C (fdcId: [168808](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168808);
-- Snacks, KELLOGG, KELLOGG'S Low Fat Granola Bar, Crunchy Almond/Brown Sugar (fdcId: [169688](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169688);
-- Snacks, KELLOGG, KELLOGG'S, NUTRI-GRAIN Cereal Bars, fruit (fdcId: [168862](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168862);
-- Snacks, granola bar, GENERAL MILLS NATURE VALLEY, SWEET&SALTY NUT, peanut (fdcId: [174801](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174801);
-- Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, CHEWY TRAIL MIX (fdcId: [173153](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173153);
-- Snacks, granola bar, QUAKER, DIPPS, all flavors (fdcId: [173154](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173154);
-- Snacks, granola bar, QUAKER, chewy, 90 Calorie Bar (fdcId: [174800](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174800);
-- Snacks, granola bars, QUAKER OATMEAL TO GO, all flavors (fdcId: [174795](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174795);
-- Snacks, popcorn, oil-popped, microwave, regular flavor, no trans fat (fdcId: [167549](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167549);
-- Soy flour, low-fat (fdcId: [172444](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172444);
-- Sports drink (Gatorade G) (fdcId: [2346347](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346347);
-- Sports drink, NFS (fdcId: [2346349](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346349);
-- Sports drink, low calorie (fdcId: [2346352](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346352);
-- Sports drink, low calorie (Gatorade G2) (fdcId: [2346350](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346350);
-- Stew, dumpling with mutton (Navajo) (fdcId: [168042](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168042);
-- Tortilla chips, low fat, baked without fat (fdcId: [168859](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168859);
-- Vinegar, red wine (fdcId: [172240](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172240);
-- Whale, bowhead, skin and subcutaneous fat (muktuk) (Alaska Native) (fdcId: [167624](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167624);
-- Whale, bowhead, subcutaneous fat (blubber) (Alaska Native) (fdcId: [167623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167623);
-- Wine spritzer (fdcId: [2346272](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346272);
-- Wine, dessert, sweet (fdcId: [2346267](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346267);
-- Wine, light (fdcId: [2346268](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346268);
-- Wine, nonalcoholic (fdcId: [2346185](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346185);
-- Wine, table, red (fdcId: [2346263](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346263);
-- Wine, table, rose (fdcId: [2346265](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346265);
-- Wine, table, white (fdcId: [2346264](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346264);
+- Alcoholic Beverage, wine, table, red, Barbera (fdcId: [173191](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173191))
+- Alcoholic Beverage, wine, table, red, Burgundy (fdcId: [173208](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173208))
+- Alcoholic Beverage, wine, table, red, Cabernet Franc (fdcId: [174834](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174834))
+- Alcoholic Beverage, wine, table, red, Cabernet Sauvignon (fdcId: [174833](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174833))
+- Alcoholic Beverage, wine, table, red, Carignane (fdcId: [174840](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174840))
+- Alcoholic Beverage, wine, table, red, Claret (fdcId: [173194](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173194))
+- Alcoholic Beverage, wine, table, red, Gamay (fdcId: [171872](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171872))
+- Alcoholic Beverage, wine, table, red, Lemberger (fdcId: [174838](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174838))
+- Alcoholic Beverage, wine, table, red, Merlot (fdcId: [171925](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171925))
+- Alcoholic Beverage, wine, table, red, Mouvedre (fdcId: [174109](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174109))
+- Alcoholic Beverage, wine, table, red, Petite Sirah (fdcId: [173193](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173193))
+- Alcoholic Beverage, wine, table, red, Pinot Noir (fdcId: [174835](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174835))
+- Alcoholic Beverage, wine, table, red, Sangiovese (fdcId: [174839](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174839))
+- Alcoholic Beverage, wine, table, red, Syrah (fdcId: [174836](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174836))
+- Alcoholic Beverage, wine, table, red, Zinfandel (fdcId: [173192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173192))
+- Alcoholic beverage, wine, cooking (fdcId: [169070](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169070))
+- Alcoholic beverage, wine, dessert, dry (fdcId: [175112](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175112))
+- Alcoholic beverage, wine, dessert, sweet (fdcId: [173176](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173176))
+- Alcoholic beverage, wine, light (fdcId: [169071](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169071))
+- Alcoholic beverage, wine, table, all (fdcId: [173185](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173185))
+- Alcoholic beverage, wine, table, red (fdcId: [173190](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173190))
+- Alcoholic beverage, wine, table, white (fdcId: [174837](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174837))
+- Alcoholic beverage, wine, table, white, Chardonnay (fdcId: [174110](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174110))
+- Alcoholic beverage, wine, table, white, Chenin Blanc (fdcId: [173195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173195))
+- Alcoholic beverage, wine, table, white, Fume Blanc (fdcId: [173196](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173196))
+- Alcoholic beverage, wine, table, white, Gewurztraminer (fdcId: [174843](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174843))
+- Alcoholic beverage, wine, table, white, Muller Thurgau (fdcId: [173198](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173198))
+- Alcoholic beverage, wine, table, white, Muscat (fdcId: [174849](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174849))
+- Alcoholic beverage, wine, table, white, Pinot Blanc (fdcId: [174848](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174848))
+- Alcoholic beverage, wine, table, white, Pinot Gris (Grigio) (fdcId: [174841](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174841))
+- Alcoholic beverage, wine, table, white, Riesling (fdcId: [173200](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173200))
+- Alcoholic beverage, wine, table, white, Sauvignon Blanc (fdcId: [173201](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173201))
+- Alcoholic beverage, wine, table, white, Semillon (fdcId: [174845](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174845))
+- Alcoholic beverage, wine, table, white, late harvest (fdcId: [173202](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173202))
+- Alcoholic beverage, wine, table, white, late harvest, Gewurztraminer (fdcId: [174844](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174844))
+- Alcoholic beverages, wine, rose (fdcId: [171908](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171908))
+- Beverages, PEPSICO QUAKER, Gatorade G2, low calorie (fdcId: [174178](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174178))
+- Beverages, PEPSICO QUAKER, Gatorade, G performance O 2, ready-to-drink. (fdcId: [173660](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173660))
+- Beverages, Wine, non-alcoholic (fdcId: [174157](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174157))
+- Beverages, drink mix, QUAKER OATS, GATORADE, orange flavor, powder (fdcId: [173659](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173659))
+- Cabbage, kimchi (fdcId: [170392](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170392))
+- Cereal or granola bar (General Mills Nature Valley Chewy Trail Mix) (fdcId: [2343574](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343574))
+- Cereal or granola bar (General Mills Nature Valley Sweet and Salty Granola Bar) (fdcId: [2343576](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343576))
+- Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar) (fdcId: [2343566](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343566))
+- Cereal or granola bar (Kellogg's Nutri-Grain Yogurt Bar) (fdcId: [2343567](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343567))
+- Cereal or granola bar (Quaker Chewy 90 Calorie Granola Bar) (fdcId: [2343579](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343579))
+- Cereal or granola bar (Quaker Chewy Dipps Granola Bar) (fdcId: [2343581](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343581))
+- Cereal or granola bar (Quaker Granola Bites) (fdcId: [2343582](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343582))
+- Cereal or granola bar, chocolate coated, NFS (fdcId: [2343590](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343590))
+- Cereal or granola bar, lowfat, NFS (fdcId: [2343585](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343585))
+- Cereals ready-to-eat, GENERAL MILLS, CHEERIOS (fdcId: [173884](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173884))
+- Cereals ready-to-eat, POST Bran Flakes (fdcId: [173888](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173888))
+- Cereals ready-to-eat, POST GREAT GRAINS Banana Nut Crunch (fdcId: [169870](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169870))
+- Cereals ready-to-eat, POST GREAT GRAINS Cranberry Almond Crunch (fdcId: [173005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173005))
+- Cereals ready-to-eat, POST Raisin Bran Cereal (fdcId: [171650](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171650))
+- Cereals ready-to-eat, POST SELECTS Blueberry Morning (fdcId: [173919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173919))
+- Cereals ready-to-eat, POST SELECTS Maple Pecan Crunch (fdcId: [174653](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174653))
+- Cereals ready-to-eat, POST, ALPHA-BITS (fdcId: [171641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171641))
+- Cereals ready-to-eat, POST, COCOA PEBBLES (fdcId: [173885](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173885))
+- Cereals ready-to-eat, POST, FRUITY PEBBLES (fdcId: [171645](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171645))
+- Cereals ready-to-eat, POST, GOLDEN CRISP (fdcId: [171652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171652))
+- Cereals ready-to-eat, POST, GRAPE-NUTS Cereal (fdcId: [171647](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171647))
+- Cereals ready-to-eat, POST, GRAPE-NUTS Flakes (fdcId: [171648](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171648))
+- Cereals ready-to-eat, POST, GREAT GRAINS Crunchy Pecan Cereal (fdcId: [169862](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169862))
+- Cereals ready-to-eat, POST, GREAT GRAINS, Raisin, Date & Pecan (fdcId: [169041](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169041))
+- Cereals ready-to-eat, POST, Shredded Wheat n' Bran, spoon-size (fdcId: [167715](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167715))
+- Cereals ready-to-eat, POST, Shredded Wheat, original spoon-size (fdcId: [173911](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173911))
+- Cereals ready-to-eat, QUAKER Oatmeal Squares, Golden Maple (fdcId: [173014](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173014))
+- Cereals ready-to-eat, QUAKER WHOLE HEARTS oat cereal (fdcId: [173921](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173921))
+- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH (fdcId: [171642](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171642))
+- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH with CRUNCHBERRIES (fdcId: [171643](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171643))
+- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH'S Halloween Crunch (fdcId: [174657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174657))
+- Cereals ready-to-eat, QUAKER, CAP'N CRUNCH'S PEANUT BUTTER CRUNCH (fdcId: [171644](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171644))
+- Cereals ready-to-eat, QUAKER, Cap'n Crunch's OOPS! All Berries Cereal (fdcId: [173013](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173013))
+- Cereals ready-to-eat, QUAKER, Christmas Crunch (fdcId: [174652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174652))
+- Cereals ready-to-eat, QUAKER, KING VITAMAN (fdcId: [173890](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173890))
+- Cereals ready-to-eat, QUAKER, Low Fat 100% Natural Granola with Raisins (fdcId: [172976](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172976))
+- Cereals ready-to-eat, QUAKER, MOTHER'S COCOA BUMPERS (fdcId: [174634](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174634))
+- Cereals ready-to-eat, QUAKER, MOTHER'S Cinnamon Oat Crunch (fdcId: [174632](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174632))
+- Cereals ready-to-eat, QUAKER, MOTHER'S PEANUT BUTTER BUMPERS Cereal (fdcId: [172985](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172985))
+- Cereals ready-to-eat, QUAKER, MOTHER'S Toasted Oat Bran cereal (fdcId: [172986](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172986))
+- Cereals ready-to-eat, QUAKER, Maple Brown Sugar LIFE Cereal (fdcId: [174659](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174659))
+- Cereals ready-to-eat, QUAKER, Natural Granola Apple Cranberry Almond (fdcId: [174658](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174658))
+- Cereals ready-to-eat, QUAKER, Oatmeal Squares (fdcId: [174622](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174622))
+- Cereals ready-to-eat, QUAKER, Oatmeal Squares, cinnamon (fdcId: [174623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174623))
+- Cereals ready-to-eat, QUAKER, QUAKER CRUNCHY BRAN (fdcId: [173886](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173886))
+- Cereals ready-to-eat, QUAKER, QUAKER OAT CINNAMON LIFE (fdcId: [174620](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174620))
+- Cereals ready-to-eat, QUAKER, QUAKER OAT LIFE, plain (fdcId: [173891](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173891))
+- Cereals ready-to-eat, QUAKER, QUAKER Puffed Rice (fdcId: [171651](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171651))
+- Cereals ready-to-eat, QUAKER, QUAKER Puffed Wheat (fdcId: [171669](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171669))
+- Cereals ready-to-eat, QUAKER, SWEET CRUNCH/QUISP (fdcId: [171649](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171649))
+- Cereals ready-to-eat, QUAKER, Shredded Wheat, bagged cereal (fdcId: [172987](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172987))
+- Cereals ready-to-eat, QUAKER, Toasted Multigrain Crisps (fdcId: [172974](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172974))
+- Cereals, Oat Bran, QUAKER, QUAKER/MOTHER'S Oat Bran, prepared with water, salt (fdcId: [172978](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172978))
+- Cereals, QUAKER, Instant Oatmeal Organic, Regular (fdcId: [174660](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174660))
+- Cereals, QUAKER, Instant Oatmeal, Apple and Cinnamon, reduced sugar (fdcId: [174662](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174662))
+- Cereals, QUAKER, Instant Oatmeal, Banana Bread, dry (fdcId: [174638](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174638))
+- Cereals, QUAKER, Instant Oatmeal, Cinnamon Spice, reduced sugar (fdcId: [173016](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173016))
+- Cereals, QUAKER, Instant Oatmeal, Cinnamon Swirl, high fiber (fdcId: [171682](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171682))
+- Cereals, QUAKER, Instant Oatmeal, Cinnamon-Spice, dry (fdcId: [174636](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174636))
+- Cereals, QUAKER, Instant Oatmeal, Raisin and Spice, dry (fdcId: [172991](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172991))
+- Cereals, QUAKER, Instant Oatmeal, apples and cinnamon, dry (fdcId: [171663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171663))
+- Cereals, QUAKER, Instant Oatmeal, maple and brown sugar, dry (fdcId: [173907](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173907))
+- Cereals, QUAKER, Instant Oatmeal, raisins, dates and walnuts, dry (fdcId: [174625](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174625))
+- Cereals, QUAKER, Instant Oatmeal, weight control, cinnamon (fdcId: [173926](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173926))
+- Cereals, QUAKER, Oat Bran, QUAKER/MOTHER'S Oat Bran, dry (fdcId: [174626](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174626))
+- Cereals, QUAKER, Oat Bran, QUAKER/MOTHER'S Oat Bran, prepared with water, no salt (fdcId: [174627](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174627))
+- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, dry (fdcId: [172972](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172972))
+- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, prepared with water, no salt (fdcId: [172979](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172979))
+- Cereals, QUAKER, QUAKER MultiGrain Oatmeal, prepared with water, salt (fdcId: [172980](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172980))
+- Cereals, QUAKER, Quick Oats with Iron, Dry (fdcId: [174640](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174640))
+- Cereals, QUAKER, Quick Oats, Dry (fdcId: [172989](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172989))
+- Cereals, QUAKER, Weight Control Instant Oatmeal, banana bread (fdcId: [173923](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173923))
+- Cereals, QUAKER, Weight Control Instant Oatmeal, maple and brown sugar (fdcId: [173922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173922))
+- Cereals, QUAKER, Whole Wheat Natural Cereal, dry (fdcId: [174641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174641))
+- Cereals, QUAKER, corn grits, instant, plain, dry (fdcId: [171656](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171656))
+- Cereals, QUAKER, corn grits, instant, plain, prepared (microwaved or boiling water added), without salt (fdcId: [173897](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173897))
+- Cereals, QUAKER, hominy grits, white, quick, dry (fdcId: [174629](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174629))
+- Cereals, QUAKER, hominy grits, white, regular, dry (fdcId: [174630](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174630))
+- Cereals, QUAKER, oatmeal, REAL MEDLEYS, apple walnut, dry (fdcId: [171684](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171684))
+- Cereals, QUAKER, oatmeal, REAL MEDLEYS, blueberry hazelnut, dry (fdcId: [171683](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171683))
+- Cereals, QUAKER, oatmeal, REAL MEDLEYS, cherry pistachio, dry (fdcId: [173925](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173925))
+- Cereals, QUAKER, oatmeal, REAL MEDLEYS, peach almond, dry (fdcId: [173924](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173924))
+- Cereals, QUAKER, oatmeal, REAL MEDLEYS, summer berry, dry (fdcId: [171685](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171685))
+- Cocoa, dry powder, hi-fat or breakfast, processed with alkali (fdcId: [170657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170657))
+- Fat, goose (fdcId: [173572](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173572))
+- Grits, instant, made with water, no added fat (fdcId: [2343854](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343854))
+- Kimchi (fdcId: [2345604](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345604))
+- Manhattan (fdcId: [2346213](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346213))
+- Margarine-like spread, SMART BEAT Super Light without saturated fat (fdcId: [173608](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173608))
+- Martini (fdcId: [2346215](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346215))
+- Mimosa (fdcId: [2346217](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346217))
+- Nutritional drink or shake, ready-to-drink (Kellogg's Special K Protein) (fdcId: [2346296](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346296))
+- Nutritional powder mix (Kellogg's Special K20 Protein Water) (fdcId: [2346312](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346312))
+- Oatmeal, multigrain (fdcId: [2343882](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343882))
+- Oil, industrial, canola (partially hydrogenated) oil for deep fat frying (fdcId: [172360](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172360))
+- Oil, industrial, palm and palm kernel, filling fat (non-hydrogenated) (fdcId: [172368](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172368))
+- Oil, industrial, palm kernel (hydrogenated), filling fat (fdcId: [173603](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173603))
+- Rob Roy (fdcId: [2346222](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346222))
+- Sea lion, Steller, fat (Alaska Native) (fdcId: [169825](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169825))
+- Seeds, sesame flour, high-fat (fdcId: [170192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170192))
+- Seeds, sesame flour, low-fat (fdcId: [170560](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170560))
+- Snack bar, oatmeal (fdcId: [2343583](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343583))
+- Snacks, GENERAL MILLS, BETTY CROCKER Fruit Roll Ups, berry flavored, with vitamin C (fdcId: [168808](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168808))
+- Snacks, KELLOGG, KELLOGG'S Low Fat Granola Bar, Crunchy Almond/Brown Sugar (fdcId: [169688](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169688))
+- Snacks, KELLOGG, KELLOGG'S, NUTRI-GRAIN Cereal Bars, fruit (fdcId: [168862](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168862))
+- Snacks, granola bar, GENERAL MILLS NATURE VALLEY, SWEET&SALTY NUT, peanut (fdcId: [174801](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174801))
+- Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, CHEWY TRAIL MIX (fdcId: [173153](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173153))
+- Snacks, granola bar, QUAKER, DIPPS, all flavors (fdcId: [173154](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173154))
+- Snacks, granola bar, QUAKER, chewy, 90 Calorie Bar (fdcId: [174800](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174800))
+- Snacks, granola bars, QUAKER OATMEAL TO GO, all flavors (fdcId: [174795](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174795))
+- Snacks, popcorn, oil-popped, microwave, regular flavor, no trans fat (fdcId: [167549](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167549))
+- Soy flour, low-fat (fdcId: [172444](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172444))
+- Sports drink (Gatorade G) (fdcId: [2346347](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346347))
+- Sports drink, NFS (fdcId: [2346349](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346349))
+- Sports drink, low calorie (fdcId: [2346352](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346352))
+- Sports drink, low calorie (Gatorade G2) (fdcId: [2346350](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346350))
+- Stew, dumpling with mutton (Navajo) (fdcId: [168042](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168042))
+- Tortilla chips, low fat, baked without fat (fdcId: [168859](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168859))
+- Vinegar, red wine (fdcId: [172240](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172240))
+- Whale, bowhead, skin and subcutaneous fat (muktuk) (Alaska Native) (fdcId: [167624](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167624))
+- Whale, bowhead, subcutaneous fat (blubber) (Alaska Native) (fdcId: [167623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167623))
+- Wine spritzer (fdcId: [2346272](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346272))
+- Wine, dessert, sweet (fdcId: [2346267](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346267))
+- Wine, light (fdcId: [2346268](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346268))
+- Wine, nonalcoholic (fdcId: [2346185](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346185))
+- Wine, table, red (fdcId: [2346263](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346263))
+- Wine, table, rose (fdcId: [2346265](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346265))
+- Wine, table, white (fdcId: [2346264](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346264))

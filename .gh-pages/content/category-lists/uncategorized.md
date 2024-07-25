@@ -1,330 +1,330 @@
-- Abiyuch, raw (fdcId: [167782](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167782);
-- Arrowhead, cooked, boiled, drained, with salt (fdcId: [168493](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168493);
-- Arrowhead, cooked, boiled, drained, without salt (fdcId: [169204](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169204);
-- Arrowhead, raw (fdcId: [169203](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169203);
-- Arugula, raw (fdcId: [169387](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169387);
-- Ascidians (tunughnak) (Alaska Native) (fdcId: [168978](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168978);
-- Babyfood, baked product, finger snacks cereal fortified (fdcId: [169047](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169047);
-- Babyfood, cereal, mixed, dry fortified (fdcId: [170964](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170964);
-- Bagel chips (fdcId: [2343775](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343775);
-- Baobab powder (fdcId: [167806](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167806);
-- Beverages, ABBOTT, ENSURE PLUS, ready-to-drink (fdcId: [167727](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167727);
-- Beverages, Carob-flavor beverage mix, powder (fdcId: [174114](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174114);
-- Beverages, Cocktail mix, non-alcoholic, concentrated, frozen (fdcId: [167739](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167739);
-- Beverages, Horchata, as served in restaurant (fdcId: [171941](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171941);
-- Beverages, Powerade Zero Ion4, calorie-free, assorted flavors (fdcId: [171923](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171923);
-- Beverages, SLIMFAST, Meal replacement,  High Protein Shake, Ready-To-Drink, 3-2-1 plan (fdcId: [173170](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173170);
-- Beverages, Tropical Punch, ready-to-drink (fdcId: [171915](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171915);
-- Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan (fdcId: [173172](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173172);
-- Beverages, UNILEVER, SLIMFAST, meal replacement, regular, ready-to-drink,  3-2-1 Plan (fdcId: [173171](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173171);
-- Borage, cooked, boiled, drained, with salt (fdcId: [168509](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168509);
-- Borage, cooked, boiled, drained, without salt (fdcId: [170482](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170482);
-- Borage, raw (fdcId: [170481](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170481);
-- Breakfast tart, lowfat (fdcId: [2343561](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343561);
-- CARRABBA'S ITALIAN GRILL, lasagne (fdcId: [169030](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169030);
-- CARRABBA'S ITALIAN GRILL, spaghetti with pomodoro sauce (fdcId: [169853](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169853);
-- CHICK-FIL-A, Chick-n-Strips (fdcId: [170303](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170303);
-- CHICK-FIL-A, hash browns (fdcId: [170304](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170304);
-- Caesar dressing (fdcId: [2345756](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345756);
-- Caesar dressing, fat free (fdcId: [2345789](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345789);
-- Caesar dressing, light (fdcId: [2345777](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345777);
-- Candies, HEATH BITES (fdcId: [168801](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168801);
-- Candies, MARS SNACKFOOD US, SKITTLES Tropical Bite Size Candies (fdcId: [169667](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169667);
-- Candies, MARS SNACKFOOD US, SNICKERS CRUNCHER (fdcId: [169663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169663);
-- Candies, REESE'S BITES (fdcId: [169623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169623);
-- Candies, YORK BITES (fdcId: [168776](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168776);
-- Candies, carob, unsweetened (fdcId: [167973](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167973);
-- Candies, divinity, prepared-from-recipe (fdcId: [168846](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168846);
-- Candies, fondant, prepared-from-recipe (fdcId: [167986](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167986);
-- Candies, halavah, plain (fdcId: [167996](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167996);
-- Candies, hard (fdcId: [167990](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167990);
-- Candies, hard, dietetic or low calorie (sorbitol) (fdcId: [169880](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169880);
-- Candies, taffy, prepared-from-recipe (fdcId: [169670](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169670);
-- Candy, hard (fdcId: [2345920](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345920);
-- Capers, canned (fdcId: [172238](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172238);
-- Cardoon, cooked, boiled, drained, with salt (fdcId: [169338](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169338);
-- Cardoon, cooked, boiled, drained, without salt (fdcId: [169982](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169982);
-- Cardoon, raw (fdcId: [169981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169981);
-- Cassava, raw (fdcId: [169985](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169985);
-- Catsup (fdcId: [168556](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168556);
-- Catsup, low sodium (fdcId: [169381](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169381);
-- Celeriac, cooked, boiled, drained, with salt (fdcId: [169341](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169341);
-- Celeriac, cooked, boiled, drained, without salt (fdcId: [169987](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169987);
-- Celeriac, raw (fdcId: [170400](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170400);
-- Celtuce, raw (fdcId: [169990](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169990);
-- Cereals ready-to-eat, ALPEN (fdcId: [169075](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169075);
-- Cereals ready-to-eat, FAMILIA (fdcId: [169076](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169076);
-- Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes (fdcId: [172981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172981);
-- Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS flakes (fdcId: [173017](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173017);
-- Cereals ready-to-eat, RALSTON Crispy Hexagons (fdcId: [174649](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174649);
-- Cereals ready-to-eat, RALSTON TASTEEOS (fdcId: [173893](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173893);
-- Cereals ready-to-eat, UNCLE SAM CEREAL (fdcId: [174639](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174639);
-- Cereals ready-to-eat, granola, homemade (fdcId: [171646](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171646);
-- Cereals, farina, unenriched, dry (fdcId: [173916](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173916);
-- Cherimoya, raw (fdcId: [173953](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173953);
-- Chicory, witloof, raw (fdcId: [170404](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170404);
-- Clementines, raw (fdcId: [168195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168195);
-- Cockles, raw (Alaska Native) (fdcId: [169803](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169803);
-- Cocktail sauce (fdcId: [2345266](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345266);
-- Coleslaw dressing (fdcId: [2345757](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345757);
-- Coleslaw dressing, light (fdcId: [2345774](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345774);
-- Coleslaw, fast food / restaurant (fdcId: [2345334](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345334);
-- Cough drops (fdcId: [2345922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345922);
-- DENNY'S, coleslaw (fdcId: [169023](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169023);
-- DENNY'S, hash browns (fdcId: [169025](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169025);
-- Dessert topping, powdered (fdcId: [170865](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170865);
-- Dessert topping, pressurized (fdcId: [170867](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170867);
-- Dessert topping, semi solid, frozen (fdcId: [170868](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170868);
-- Desserts, rennin, tablets, unsweetened (fdcId: [168794](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168794);
-- Desserts, rennin, vanilla, dry mix (fdcId: [168792](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168792);
-- Dock, cooked, boiled, drained, with salt (fdcId: [169371](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169371);
-- Dock, cooked, boiled, drained, without salt (fdcId: [170077](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170077);
-- Dock, raw (fdcId: [170076](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170076);
-- Dulce de Leche (fdcId: [173461](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173461);
-- Dulce de leche (fdcId: [2341102](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2341102);
-- Durian, raw or frozen (fdcId: [168192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168192);
-- Elk, free range, ground, cooked patties (Shoshone Bannock) (fdcId: [168055](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168055);
-- Elk, free range, ground, raw (Shoshone Bannock) (fdcId: [168056](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168056);
-- Elk, free range, roast, eye of round, cooked (Shoshone Bannock) (fdcId: [168057](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168057);
-- Elk, free range, roast, eye of round, raw (Shoshone Bannock) (fdcId: [167652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167652);
-- Enchilada sauce, green (fdcId: [2345255](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345255);
-- Enchilada sauce, red (fdcId: [2345254](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345254);
-- Endive, raw (fdcId: [168412](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168412);
-- Epazote, raw (fdcId: [169398](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169398);
-- Eppaw, raw (fdcId: [170078](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170078);
-- Escarole, cooked, boiled, drained, no salt added (fdcId: [168413](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168413);
-- Fast foods, coleslaw (fdcId: [170300](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170300);
-- Feijoa, raw (fdcId: [168176](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168176);
-- Fiddlehead ferns, frozen, unprepared (fdcId: [168584](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168584);
-- Fiddlehead ferns, raw (fdcId: [169405](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169405);
-- Fluid replacement, electrolyte solution (fdcId: [2346353](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346353);
-- Fluid replacement, electrolyte solution (include PEDIALYTE) (fdcId: [169883](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169883);
-- Frankfurter, low sodium (fdcId: [168131](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168131);
-- French or Catalina dressing (fdcId: [2345758](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345758);
-- French or Catalina dressing, fat free (fdcId: [2345791](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345791);
-- French or Catalina dressing, light (fdcId: [2345776](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345776);
-- Frozen novelties, ice type, italian, restaurant-prepared (fdcId: [168812](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168812);
-- Fungi, Cloud ears, dried (fdcId: [168581](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168581);
-- Gourd, dishcloth (towelgourd), cooked, boiled, drained, with salt (fdcId: [168530](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168530);
-- Gourd, dishcloth (towelgourd), cooked, boiled, drained, without salt (fdcId: [168415](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168415);
-- Gourd, dishcloth (towelgourd), raw (fdcId: [168414](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168414);
-- Guanabana nectar, canned (fdcId: [168196](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168196);
-- Hearts of palm, canned (fdcId: [168569](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168569);
-- Hearts of palm, raw (fdcId: [167714](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167714);
-- Hoisin sauce (fdcId: [2342916](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342916);
-- Hominy, canned, white (fdcId: [169701](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169701);
-- Hominy, canned, yellow (fdcId: [169752](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169752);
-- Hot and sour soup (fdcId: [2342596](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342596);
-- Italian dressing, fat free (fdcId: [2345793](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345793);
-- Italian dressing, light (fdcId: [2345782](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345782);
-- Jellies (fdcId: [169642](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169642);
-- Jujube, Chinese, fresh, dried (fdcId: [168152](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168152);
-- Jujube, raw (fdcId: [168151](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168151);
-- Jute, potherb, cooked, boiled, drained, with salt (fdcId: [169354](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169354);
-- Jute, potherb, cooked, boiled, drained, without salt (fdcId: [168420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168420);
-- Jute, potherb, raw (fdcId: [168419](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168419);
-- KFC, Coleslaw (fdcId: [170340](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170340);
-- Kanpyo, (dried gourd strips) (fdcId: [169241](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169241);
-- Kielbasa, fully cooked, grilled (fdcId: [173877](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173877);
-- Kielbasa, fully cooked, pan-fried (fdcId: [173878](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173878);
-- Kielbasa, fully cooked, unheated (fdcId: [173879](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173879);
-- Leavening agents, baking powder, double-acting, sodium aluminum sulfate (fdcId: [172803](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172803);
-- Leavening agents, baking powder, double-acting, straight phosphate (fdcId: [172804](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172804);
-- Leavening agents, baking powder, low-sodium (fdcId: [172805](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172805);
-- Litchis, dried (fdcId: [169087](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169087);
-- Litchis, raw (fdcId: [169086](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169086);
-- Longans, dried (fdcId: [169907](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169907);
-- Longans, raw (fdcId: [169089](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169089);
-- Loquats, raw (fdcId: [169908](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169908);
-- McDONALD'S, BIG BREAKFAST (fdcId: [172064](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172064);
-- McDONALD'S, BIG MAC (fdcId: [170720](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170720);
-- McDONALD'S, BIG MAC (without Big Mac Sauce) (fdcId: [172067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172067);
-- McDONALD'S, Hash Brown (fdcId: [173298](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173298);
-- McDONALD'S, McFLURRY with M&M'S CANDIES (fdcId: [173303](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173303);
-- McDONALD'S, QUARTER POUNDER (fdcId: [170321](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170321);
-- McDONALD'S, Side Salad (fdcId: [172074](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172074);
-- Minestrone soup, reduced sodium, canned or ready-to-serve (fdcId: [2345654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345654);
-- Mutton, cooked, roasted (Navajo) (fdcId: [167634](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167634);
-- Nance, frozen, unsweetened (fdcId: [167789](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167789);
-- Naranjilla (lulo) pulp, frozen, unsweetened (fdcId: [167790](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167790);
-- Nopales, cooked, without salt (fdcId: [169388](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169388);
-- Nopales, raw (fdcId: [168571](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168571);
-- Oil, beluga, whale (Alaska Native) (fdcId: [168981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168981);
-- Oil, cooking and salad, ENOVA, 80% diglycerides (fdcId: [171433](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171433);
-- Oil, cupu assu (fdcId: [173563](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173563);
-- Oil, palm (fdcId: [171015](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171015);
-- Oil, spotted seal (Alaska Native) (fdcId: [167641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167641);
-- Oil, walrus (Alaska Native) (fdcId: [168032](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168032);
-- Oil, whale, bowhead (Alaska Native) (fdcId: [167625](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167625);
-- Okara (fdcId: [172452](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172452);
-- Owl, horned, flesh, raw (Alaska Native) (fdcId: [167613](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167613);
-- Papad (fdcId: [168106](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168106);
-- Papad, grilled or broiled (fdcId: [2342904](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342904);
-- Pectin, liquid (fdcId: [167682](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167682);
-- Pectin, unsweetened, dry mix (fdcId: [168821](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168821);
-- Phyllo dough (fdcId: [172791](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172791);
-- Pillsbury, Crusty French Loaf, refrigerated dough (fdcId: [173261](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173261);
-- Pimento, canned (fdcId: [168559](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168559);
-- Poi (fdcId: [170431](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170431);
-- Pummelo, raw (fdcId: [167754](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167754);
-- Purslane, cooked, boiled, drained, with salt (fdcId: [170121](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170121);
-- Purslane, cooked, boiled, drained, without salt (fdcId: [169275](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169275);
-- Purslane, raw (fdcId: [169274](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169274);
-- Quinces, raw (fdcId: [168163](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168163);
-- Restaurant, family style, coleslaw (fdcId: [169026](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169026);
-- Restaurant, family style, hash browns (fdcId: [169848](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169848);
-- Rose Hips, wild (Northern Plains Indians) (fdcId: [168998](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168998);
-- Roselle, raw (fdcId: [168170](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168170);
-- Rosemary, fresh (fdcId: [173473](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173473);
-- Rowal, raw (fdcId: [167783](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167783);
-- Russian dressing (fdcId: [2345763](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345763);
-- Russian dressing, fat free (fdcId: [2345796](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345796);
-- Russian dressing, light (fdcId: [2345784](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345784);
-- Rutabaga, raw (fdcId: [2345324](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345324);
-- Rutabagas, cooked, boiled, drained, with salt (fdcId: [170528](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170528);
-- Rutabagas, cooked, boiled, drained, without salt (fdcId: [168455](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168455);
-- Rutabagas, raw (fdcId: [168454](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168454);
-- SMART SOUP, Greek Minestrone (fdcId: [171578](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171578);
-- Salad Dressing, coleslaw, reduced fat (fdcId: [168109](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168109);
-- Salad dressing, KRAFT MIRACLE WHIP FREE Nonfat Dressing (fdcId: [171004](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171004);
-- Salad dressing, caesar dressing, regular (fdcId: [169055](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169055);
-- Salad dressing, caesar, fat-free (fdcId: [171045](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171045);
-- Salad dressing, caesar, low calorie (fdcId: [169877](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169877);
-- Salad dressing, coleslaw (fdcId: [169056](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169056);
-- Salad dressing, french dressing, commercial, regular (fdcId: [171414](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171414);
-- Salad dressing, french dressing, commercial, regular, without salt (fdcId: [171020](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171020);
-- Salad dressing, french dressing, fat-free (fdcId: [171420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171420);
-- Salad dressing, french dressing, reduced calorie (fdcId: [167693](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167693);
-- Salad dressing, french dressing, reduced fat (fdcId: [171404](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171404);
-- Salad dressing, french dressing, reduced fat, without salt (fdcId: [171021](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171021);
-- Salad dressing, french, home recipe (fdcId: [171416](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171416);
-- Salad dressing, green goddess, regular (fdcId: [169057](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169057);
-- Salad dressing, italian dressing, commercial, reduced fat (fdcId: [171405](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171405);
-- Salad dressing, italian dressing, commercial, regular (fdcId: [171019](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171019);
-- Salad dressing, italian dressing, commercial, regular, without salt (fdcId: [171022](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171022);
-- Salad dressing, italian dressing, fat-free (fdcId: [173590](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173590);
-- Salad dressing, italian dressing, reduced calorie (fdcId: [168096](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168096);
-- Salad dressing, italian dressing, reduced fat, without salt (fdcId: [171023](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171023);
-- Salad dressing, russian dressing (fdcId: [171005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171005);
-- Salad dressing, russian dressing, low calorie (fdcId: [171007](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171007);
-- Salad dressing, spray-style dressing, assorted flavors (fdcId: [171036](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171036);
-- Salad dressing, sweet and sour (fdcId: [169875](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169875);
-- Salad dressing, thousand island dressing, fat-free (fdcId: [172356](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172356);
-- Salad dressing, thousand island dressing, reduced fat (fdcId: [171008](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171008);
-- Salad dressing, thousand island, commercial, regular (fdcId: [171402](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171402);
-- Salsa verde or salsa, green (fdcId: [2345256](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345256);
-- Salsa, NFS (fdcId: [2345249](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345249);
-- Salsa, red (fdcId: [2345251](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345251);
-- Salsa, red, homemade (fdcId: [2345252](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345252);
-- Salsify, cooked, boiled, drained, with salt (fdcId: [170529](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170529);
-- Salsify, cooked, boiled, drained, without salt (fdcId: [169278](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169278);
-- Salt, table (fdcId: [173468](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173468);
-- Sapote, mamey, raw (fdcId: [167760](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167760);
-- Sauce, alfredo mix, dry (fdcId: [171603](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171603);
-- Sauce, cocktail, ready-to-serve (fdcId: [174067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174067);
-- Sauce, enchilada, red, mild, ready to serve (fdcId: [174074](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174074);
-- Sauce, hoisin, ready-to-serve (fdcId: [172886](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172886);
-- Sauce, homemade, white, medium (fdcId: [174525](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174525);
-- Sauce, homemade, white, thick (fdcId: [174526](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174526);
-- Sauce, hot chile, sriracha (fdcId: [171186](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171186);
-- Sauce, hot chile, sriracha, CHA! BY TEXAS PETE (fdcId: [171187](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171187);
-- Sauce, hot chile, sriracha, TUONG OT SRIRACHA (fdcId: [171188](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171188);
-- Sauce, salsa, ready-to-serve (fdcId: [174524](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174524);
-- Sauce, salsa, verde, ready-to-serve (fdcId: [171824](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171824);
-- Sauce, sofrito, prepared from recipe (fdcId: [171174](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171174);
-- Sauce, sweet and sour, prepared-from-recipe (fdcId: [174543](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174543);
-- Sauce, sweet and sour, ready-to-serve (fdcId: [174066](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174066);
-- Sauce, tartar, ready-to-serve (fdcId: [171826](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171826);
-- Sauce, teriyaki, ready-to-serve (fdcId: [171167](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171167);
-- Sauce, teriyaki, ready-to-serve, reduced sodium (fdcId: [172890](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172890);
-- Sauce, worcestershire (fdcId: [171610](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171610);
-- Sea lion, Steller, heart (Alaska Native) (fdcId: [169002](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169002);
-- Semolina, enriched (fdcId: [169715](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169715);
-- Semolina, unenriched (fdcId: [168933](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168933);
-- Shake, fast food, vanilla (fdcId: [173226](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173226);
-- Shallots, freeze-dried (fdcId: [170082](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170082);
-- Shallots, raw (fdcId: [170499](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170499);
-- Shortening frying (heavy duty), palm (hydrogenated) (fdcId: [172331](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172331);
-- Shortening, confectionery, fractionated palm (fdcId: [172334](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172334);
-- Smelt, dried (Alaska Native) (fdcId: [167654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167654);
-- Snack mix, plain (Chex Mix) (fdcId: [2343774](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343774);
-- Snacks, bagel chips, plain (fdcId: [173150](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173150);
-- Snacks, granola bites, mixed flavors (fdcId: [173146](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173146);
-- Snacks, taro chips (fdcId: [168865](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168865);
-- Snacks, trail mix, regular (fdcId: [167561](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167561);
-- Snacks, trail mix, regular, unsalted (fdcId: [170654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170654);
-- Snacks, trail mix, tropical (fdcId: [167968](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167968);
-- Snacks, yucca (cassava) chips, salted (fdcId: [173152](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173152);
-- Soup, bouillon cubes and granules, low sodium, dry (fdcId: [171613](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171613);
-- Soup, hot and sour, Chinese restaurant (fdcId: [174808](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174808);
-- Soup, minestrone, canned, chunky, ready-to-serve (fdcId: [171550](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171550);
-- Soup, minestrone, canned, condensed (fdcId: [171153](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171153);
-- Soup, minestrone, canned, reduced sodium, ready-to-serve (fdcId: [174530](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174530);
-- Soup, wonton, Chinese restaurant (fdcId: [171821](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171821);
-- Soursop, nectar (fdcId: [2344844](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344844);
-- Soursop, raw (fdcId: [167761](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167761);
-- Spaghetti, protein-fortified, cooked, enriched (n x 6.25) (fdcId: [168934](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168934);
-- Spaghetti, protein-fortified, dry, enriched (n x 6.25) (fdcId: [168937](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168937);
-- Spelt, cooked (fdcId: [169746](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169746);
-- Spelt, uncooked (fdcId: [169745](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169745);
-- Spices, allspice, ground (fdcId: [171315](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171315);
-- Spices, cardamom (fdcId: [170919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170919);
-- Spices, chervil, dried (fdcId: [171318](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171318);
-- Spices, chili powder (fdcId: [171319](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171319);
-- Spices, cinnamon, ground (fdcId: [171320](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171320);
-- Spices, cloves, ground (fdcId: [171321](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171321);
-- Spices, curry powder (fdcId: [170924](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170924);
-- Spices, mace, ground (fdcId: [170927](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170927);
-- Spices, marjoram, dried (fdcId: [170928](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170928);
-- Spices, oregano, dried (fdcId: [171328](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171328);
-- Spices, paprika (fdcId: [171329](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171329);
-- Spices, rosemary, dried (fdcId: [171333](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171333);
-- Spices, saffron (fdcId: [170934](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170934);
-- Spices, sage, ground (fdcId: [170935](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170935);
-- Spices, savory, ground (fdcId: [170936](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170936);
-- Spices, tarragon, dried (fdcId: [170937](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170937);
-- Spices, thyme, dried (fdcId: [170938](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170938);
-- Spices, turmeric, ground (fdcId: [172231](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172231);
-- Stew, hominy with mutton (Navajo) (fdcId: [168043](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168043);
-- Sweet and sour sauce (fdcId: [2345856](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345856);
-- Sweeteners, tabletop, aspartame, EQUAL, packets (fdcId: [169657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169657);
-- Sweeteners, tabletop, fructose, dry, powder (fdcId: [169896](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169896);
-- Sweeteners, tabletop, fructose, liquid (fdcId: [168142](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168142);
-- Sweeteners, tabletop, saccharin (sodium saccharin) (fdcId: [169072](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169072);
-- Sweeteners, tabletop, sucralose, SPLENDA packets (fdcId: [170257](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170257);
-- TACO BELL, Taco Salad (fdcId: [170736](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170736);
-- Taco shells, baked (fdcId: [172800](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172800);
-- Taco shells, baked, without added salt (fdcId: [175067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175067);
-- Tamales (Navajo) (fdcId: [167636](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167636);
-- Taro chips (fdcId: [2345070](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345070);
-- Taro, cooked, with salt (fdcId: [170543](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170543);
-- Taro, cooked, without salt (fdcId: [168486](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168486);
-- Taro, raw (fdcId: [169308](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169308);
-- Taro, tahitian, cooked, with salt (fdcId: [170136](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170136);
-- Taro, tahitian, cooked, without salt (fdcId: [170455](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170455);
-- Taro, tahitian, raw (fdcId: [169310](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169310);
-- Tart, breakfast, low fat (fdcId: [175069](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175069);
-- Tartar sauce (fdcId: [2345730](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345730);
-- Teff, cooked (fdcId: [168918](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168918);
-- Teff, uncooked (fdcId: [169747](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169747);
-- Teriyaki sauce (fdcId: [2342920](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342920);
-- Teriyaki sauce, reduced sodium (fdcId: [2342921](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342921);
-- Thousand Island dressing (fdcId: [2345770](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345770);
-- Thousand Island dressing, fat free (fdcId: [2345798](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345798);
-- Thousand Island dressing, light (fdcId: [2345786](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345786);
-- Thyme, fresh (fdcId: [173470](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173470);
-- Toddler drink, MEAD JOHNSON, PurAmino Toddler Powder, with ARA and DHA, not reconstituted (fdcId: [172294](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172294);
-- Tomatillos, raw (fdcId: [168566](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168566);
-- Topping, SMUCKER'S MAGIC SHELL (fdcId: [167956](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167956);
-- Tree fern, cooked, with salt (fdcId: [168553](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168553);
-- Tree fern, cooked, without salt (fdcId: [170464](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170464);
-- Triticale (fdcId: [169718](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169718);
-- Vanilla extract (fdcId: [173471](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173471);
-- Vanilla extract, imitation, alcohol (fdcId: [172235](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172235);
-- Vanilla extract, imitation, no alcohol (fdcId: [172236](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172236);
-- WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single (fdcId: [170772](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170772);
-- Whale, beluga, eyes (Alaska Native) (fdcId: [169796](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169796);
-- Whale, beluga, flipper, raw (Alaska Native) (fdcId: [168979](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168979);
-- Wocas, tuber, cooked, Oregon, yellow pond lily (Klamath) (fdcId: [169005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169005);
-- Wonton soup (fdcId: [2344651](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344651);
-- Worcestershire sauce (fdcId: [2342922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342922);
+- Abiyuch, raw (fdcId: [167782](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167782))
+- Arrowhead, cooked, boiled, drained, with salt (fdcId: [168493](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168493))
+- Arrowhead, cooked, boiled, drained, without salt (fdcId: [169204](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169204))
+- Arrowhead, raw (fdcId: [169203](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169203))
+- Arugula, raw (fdcId: [169387](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169387))
+- Ascidians (tunughnak) (Alaska Native) (fdcId: [168978](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168978))
+- Babyfood, baked product, finger snacks cereal fortified (fdcId: [169047](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169047))
+- Babyfood, cereal, mixed, dry fortified (fdcId: [170964](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170964))
+- Bagel chips (fdcId: [2343775](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343775))
+- Baobab powder (fdcId: [167806](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167806))
+- Beverages, ABBOTT, ENSURE PLUS, ready-to-drink (fdcId: [167727](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167727))
+- Beverages, Carob-flavor beverage mix, powder (fdcId: [174114](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174114))
+- Beverages, Cocktail mix, non-alcoholic, concentrated, frozen (fdcId: [167739](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167739))
+- Beverages, Horchata, as served in restaurant (fdcId: [171941](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171941))
+- Beverages, Powerade Zero Ion4, calorie-free, assorted flavors (fdcId: [171923](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171923))
+- Beverages, SLIMFAST, Meal replacement,  High Protein Shake, Ready-To-Drink, 3-2-1 plan (fdcId: [173170](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173170))
+- Beverages, Tropical Punch, ready-to-drink (fdcId: [171915](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171915))
+- Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan (fdcId: [173172](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173172))
+- Beverages, UNILEVER, SLIMFAST, meal replacement, regular, ready-to-drink,  3-2-1 Plan (fdcId: [173171](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173171))
+- Borage, cooked, boiled, drained, with salt (fdcId: [168509](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168509))
+- Borage, cooked, boiled, drained, without salt (fdcId: [170482](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170482))
+- Borage, raw (fdcId: [170481](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170481))
+- Breakfast tart, lowfat (fdcId: [2343561](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343561))
+- CARRABBA'S ITALIAN GRILL, lasagne (fdcId: [169030](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169030))
+- CARRABBA'S ITALIAN GRILL, spaghetti with pomodoro sauce (fdcId: [169853](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169853))
+- CHICK-FIL-A, Chick-n-Strips (fdcId: [170303](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170303))
+- CHICK-FIL-A, hash browns (fdcId: [170304](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170304))
+- Caesar dressing (fdcId: [2345756](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345756))
+- Caesar dressing, fat free (fdcId: [2345789](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345789))
+- Caesar dressing, light (fdcId: [2345777](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345777))
+- Candies, HEATH BITES (fdcId: [168801](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168801))
+- Candies, MARS SNACKFOOD US, SKITTLES Tropical Bite Size Candies (fdcId: [169667](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169667))
+- Candies, MARS SNACKFOOD US, SNICKERS CRUNCHER (fdcId: [169663](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169663))
+- Candies, REESE'S BITES (fdcId: [169623](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169623))
+- Candies, YORK BITES (fdcId: [168776](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168776))
+- Candies, carob, unsweetened (fdcId: [167973](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167973))
+- Candies, divinity, prepared-from-recipe (fdcId: [168846](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168846))
+- Candies, fondant, prepared-from-recipe (fdcId: [167986](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167986))
+- Candies, halavah, plain (fdcId: [167996](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167996))
+- Candies, hard (fdcId: [167990](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167990))
+- Candies, hard, dietetic or low calorie (sorbitol) (fdcId: [169880](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169880))
+- Candies, taffy, prepared-from-recipe (fdcId: [169670](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169670))
+- Candy, hard (fdcId: [2345920](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345920))
+- Capers, canned (fdcId: [172238](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172238))
+- Cardoon, cooked, boiled, drained, with salt (fdcId: [169338](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169338))
+- Cardoon, cooked, boiled, drained, without salt (fdcId: [169982](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169982))
+- Cardoon, raw (fdcId: [169981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169981))
+- Cassava, raw (fdcId: [169985](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169985))
+- Catsup (fdcId: [168556](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168556))
+- Catsup, low sodium (fdcId: [169381](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169381))
+- Celeriac, cooked, boiled, drained, with salt (fdcId: [169341](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169341))
+- Celeriac, cooked, boiled, drained, without salt (fdcId: [169987](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169987))
+- Celeriac, raw (fdcId: [170400](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170400))
+- Celtuce, raw (fdcId: [169990](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169990))
+- Cereals ready-to-eat, ALPEN (fdcId: [169075](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169075))
+- Cereals ready-to-eat, FAMILIA (fdcId: [169076](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169076))
+- Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes (fdcId: [172981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172981))
+- Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS flakes (fdcId: [173017](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173017))
+- Cereals ready-to-eat, RALSTON Crispy Hexagons (fdcId: [174649](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174649))
+- Cereals ready-to-eat, RALSTON TASTEEOS (fdcId: [173893](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173893))
+- Cereals ready-to-eat, UNCLE SAM CEREAL (fdcId: [174639](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174639))
+- Cereals ready-to-eat, granola, homemade (fdcId: [171646](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171646))
+- Cereals, farina, unenriched, dry (fdcId: [173916](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173916))
+- Cherimoya, raw (fdcId: [173953](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173953))
+- Chicory, witloof, raw (fdcId: [170404](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170404))
+- Clementines, raw (fdcId: [168195](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168195))
+- Cockles, raw (Alaska Native) (fdcId: [169803](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169803))
+- Cocktail sauce (fdcId: [2345266](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345266))
+- Coleslaw dressing (fdcId: [2345757](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345757))
+- Coleslaw dressing, light (fdcId: [2345774](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345774))
+- Coleslaw, fast food / restaurant (fdcId: [2345334](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345334))
+- Cough drops (fdcId: [2345922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345922))
+- DENNY'S, coleslaw (fdcId: [169023](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169023))
+- DENNY'S, hash browns (fdcId: [169025](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169025))
+- Dessert topping, powdered (fdcId: [170865](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170865))
+- Dessert topping, pressurized (fdcId: [170867](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170867))
+- Dessert topping, semi solid, frozen (fdcId: [170868](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170868))
+- Desserts, rennin, tablets, unsweetened (fdcId: [168794](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168794))
+- Desserts, rennin, vanilla, dry mix (fdcId: [168792](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168792))
+- Dock, cooked, boiled, drained, with salt (fdcId: [169371](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169371))
+- Dock, cooked, boiled, drained, without salt (fdcId: [170077](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170077))
+- Dock, raw (fdcId: [170076](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170076))
+- Dulce de Leche (fdcId: [173461](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173461))
+- Dulce de leche (fdcId: [2341102](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2341102))
+- Durian, raw or frozen (fdcId: [168192](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168192))
+- Elk, free range, ground, cooked patties (Shoshone Bannock) (fdcId: [168055](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168055))
+- Elk, free range, ground, raw (Shoshone Bannock) (fdcId: [168056](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168056))
+- Elk, free range, roast, eye of round, cooked (Shoshone Bannock) (fdcId: [168057](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168057))
+- Elk, free range, roast, eye of round, raw (Shoshone Bannock) (fdcId: [167652](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167652))
+- Enchilada sauce, green (fdcId: [2345255](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345255))
+- Enchilada sauce, red (fdcId: [2345254](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345254))
+- Endive, raw (fdcId: [168412](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168412))
+- Epazote, raw (fdcId: [169398](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169398))
+- Eppaw, raw (fdcId: [170078](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170078))
+- Escarole, cooked, boiled, drained, no salt added (fdcId: [168413](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168413))
+- Fast foods, coleslaw (fdcId: [170300](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170300))
+- Feijoa, raw (fdcId: [168176](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168176))
+- Fiddlehead ferns, frozen, unprepared (fdcId: [168584](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168584))
+- Fiddlehead ferns, raw (fdcId: [169405](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169405))
+- Fluid replacement, electrolyte solution (fdcId: [2346353](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346353))
+- Fluid replacement, electrolyte solution (include PEDIALYTE) (fdcId: [169883](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169883))
+- Frankfurter, low sodium (fdcId: [168131](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168131))
+- French or Catalina dressing (fdcId: [2345758](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345758))
+- French or Catalina dressing, fat free (fdcId: [2345791](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345791))
+- French or Catalina dressing, light (fdcId: [2345776](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345776))
+- Frozen novelties, ice type, italian, restaurant-prepared (fdcId: [168812](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168812))
+- Fungi, Cloud ears, dried (fdcId: [168581](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168581))
+- Gourd, dishcloth (towelgourd), cooked, boiled, drained, with salt (fdcId: [168530](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168530))
+- Gourd, dishcloth (towelgourd), cooked, boiled, drained, without salt (fdcId: [168415](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168415))
+- Gourd, dishcloth (towelgourd), raw (fdcId: [168414](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168414))
+- Guanabana nectar, canned (fdcId: [168196](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168196))
+- Hearts of palm, canned (fdcId: [168569](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168569))
+- Hearts of palm, raw (fdcId: [167714](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167714))
+- Hoisin sauce (fdcId: [2342916](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342916))
+- Hominy, canned, white (fdcId: [169701](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169701))
+- Hominy, canned, yellow (fdcId: [169752](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169752))
+- Hot and sour soup (fdcId: [2342596](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342596))
+- Italian dressing, fat free (fdcId: [2345793](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345793))
+- Italian dressing, light (fdcId: [2345782](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345782))
+- Jellies (fdcId: [169642](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169642))
+- Jujube, Chinese, fresh, dried (fdcId: [168152](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168152))
+- Jujube, raw (fdcId: [168151](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168151))
+- Jute, potherb, cooked, boiled, drained, with salt (fdcId: [169354](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169354))
+- Jute, potherb, cooked, boiled, drained, without salt (fdcId: [168420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168420))
+- Jute, potherb, raw (fdcId: [168419](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168419))
+- KFC, Coleslaw (fdcId: [170340](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170340))
+- Kanpyo, (dried gourd strips) (fdcId: [169241](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169241))
+- Kielbasa, fully cooked, grilled (fdcId: [173877](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173877))
+- Kielbasa, fully cooked, pan-fried (fdcId: [173878](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173878))
+- Kielbasa, fully cooked, unheated (fdcId: [173879](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173879))
+- Leavening agents, baking powder, double-acting, sodium aluminum sulfate (fdcId: [172803](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172803))
+- Leavening agents, baking powder, double-acting, straight phosphate (fdcId: [172804](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172804))
+- Leavening agents, baking powder, low-sodium (fdcId: [172805](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172805))
+- Litchis, dried (fdcId: [169087](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169087))
+- Litchis, raw (fdcId: [169086](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169086))
+- Longans, dried (fdcId: [169907](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169907))
+- Longans, raw (fdcId: [169089](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169089))
+- Loquats, raw (fdcId: [169908](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169908))
+- McDONALD'S, BIG BREAKFAST (fdcId: [172064](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172064))
+- McDONALD'S, BIG MAC (fdcId: [170720](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170720))
+- McDONALD'S, BIG MAC (without Big Mac Sauce) (fdcId: [172067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172067))
+- McDONALD'S, Hash Brown (fdcId: [173298](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173298))
+- McDONALD'S, McFLURRY with M&M'S CANDIES (fdcId: [173303](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173303))
+- McDONALD'S, QUARTER POUNDER (fdcId: [170321](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170321))
+- McDONALD'S, Side Salad (fdcId: [172074](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172074))
+- Minestrone soup, reduced sodium, canned or ready-to-serve (fdcId: [2345654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345654))
+- Mutton, cooked, roasted (Navajo) (fdcId: [167634](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167634))
+- Nance, frozen, unsweetened (fdcId: [167789](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167789))
+- Naranjilla (lulo) pulp, frozen, unsweetened (fdcId: [167790](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167790))
+- Nopales, cooked, without salt (fdcId: [169388](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169388))
+- Nopales, raw (fdcId: [168571](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168571))
+- Oil, beluga, whale (Alaska Native) (fdcId: [168981](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168981))
+- Oil, cooking and salad, ENOVA, 80% diglycerides (fdcId: [171433](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171433))
+- Oil, cupu assu (fdcId: [173563](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173563))
+- Oil, palm (fdcId: [171015](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171015))
+- Oil, spotted seal (Alaska Native) (fdcId: [167641](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167641))
+- Oil, walrus (Alaska Native) (fdcId: [168032](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168032))
+- Oil, whale, bowhead (Alaska Native) (fdcId: [167625](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167625))
+- Okara (fdcId: [172452](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172452))
+- Owl, horned, flesh, raw (Alaska Native) (fdcId: [167613](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167613))
+- Papad (fdcId: [168106](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168106))
+- Papad, grilled or broiled (fdcId: [2342904](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342904))
+- Pectin, liquid (fdcId: [167682](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167682))
+- Pectin, unsweetened, dry mix (fdcId: [168821](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168821))
+- Phyllo dough (fdcId: [172791](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172791))
+- Pillsbury, Crusty French Loaf, refrigerated dough (fdcId: [173261](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173261))
+- Pimento, canned (fdcId: [168559](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168559))
+- Poi (fdcId: [170431](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170431))
+- Pummelo, raw (fdcId: [167754](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167754))
+- Purslane, cooked, boiled, drained, with salt (fdcId: [170121](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170121))
+- Purslane, cooked, boiled, drained, without salt (fdcId: [169275](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169275))
+- Purslane, raw (fdcId: [169274](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169274))
+- Quinces, raw (fdcId: [168163](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168163))
+- Restaurant, family style, coleslaw (fdcId: [169026](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169026))
+- Restaurant, family style, hash browns (fdcId: [169848](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169848))
+- Rose Hips, wild (Northern Plains Indians) (fdcId: [168998](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168998))
+- Roselle, raw (fdcId: [168170](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168170))
+- Rosemary, fresh (fdcId: [173473](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173473))
+- Rowal, raw (fdcId: [167783](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167783))
+- Russian dressing (fdcId: [2345763](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345763))
+- Russian dressing, fat free (fdcId: [2345796](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345796))
+- Russian dressing, light (fdcId: [2345784](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345784))
+- Rutabaga, raw (fdcId: [2345324](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345324))
+- Rutabagas, cooked, boiled, drained, with salt (fdcId: [170528](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170528))
+- Rutabagas, cooked, boiled, drained, without salt (fdcId: [168455](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168455))
+- Rutabagas, raw (fdcId: [168454](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168454))
+- SMART SOUP, Greek Minestrone (fdcId: [171578](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171578))
+- Salad Dressing, coleslaw, reduced fat (fdcId: [168109](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168109))
+- Salad dressing, KRAFT MIRACLE WHIP FREE Nonfat Dressing (fdcId: [171004](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171004))
+- Salad dressing, caesar dressing, regular (fdcId: [169055](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169055))
+- Salad dressing, caesar, fat-free (fdcId: [171045](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171045))
+- Salad dressing, caesar, low calorie (fdcId: [169877](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169877))
+- Salad dressing, coleslaw (fdcId: [169056](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169056))
+- Salad dressing, french dressing, commercial, regular (fdcId: [171414](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171414))
+- Salad dressing, french dressing, commercial, regular, without salt (fdcId: [171020](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171020))
+- Salad dressing, french dressing, fat-free (fdcId: [171420](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171420))
+- Salad dressing, french dressing, reduced calorie (fdcId: [167693](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167693))
+- Salad dressing, french dressing, reduced fat (fdcId: [171404](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171404))
+- Salad dressing, french dressing, reduced fat, without salt (fdcId: [171021](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171021))
+- Salad dressing, french, home recipe (fdcId: [171416](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171416))
+- Salad dressing, green goddess, regular (fdcId: [169057](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169057))
+- Salad dressing, italian dressing, commercial, reduced fat (fdcId: [171405](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171405))
+- Salad dressing, italian dressing, commercial, regular (fdcId: [171019](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171019))
+- Salad dressing, italian dressing, commercial, regular, without salt (fdcId: [171022](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171022))
+- Salad dressing, italian dressing, fat-free (fdcId: [173590](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173590))
+- Salad dressing, italian dressing, reduced calorie (fdcId: [168096](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168096))
+- Salad dressing, italian dressing, reduced fat, without salt (fdcId: [171023](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171023))
+- Salad dressing, russian dressing (fdcId: [171005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171005))
+- Salad dressing, russian dressing, low calorie (fdcId: [171007](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171007))
+- Salad dressing, spray-style dressing, assorted flavors (fdcId: [171036](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171036))
+- Salad dressing, sweet and sour (fdcId: [169875](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169875))
+- Salad dressing, thousand island dressing, fat-free (fdcId: [172356](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172356))
+- Salad dressing, thousand island dressing, reduced fat (fdcId: [171008](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171008))
+- Salad dressing, thousand island, commercial, regular (fdcId: [171402](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171402))
+- Salsa verde or salsa, green (fdcId: [2345256](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345256))
+- Salsa, NFS (fdcId: [2345249](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345249))
+- Salsa, red (fdcId: [2345251](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345251))
+- Salsa, red, homemade (fdcId: [2345252](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345252))
+- Salsify, cooked, boiled, drained, with salt (fdcId: [170529](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170529))
+- Salsify, cooked, boiled, drained, without salt (fdcId: [169278](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169278))
+- Salt, table (fdcId: [173468](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173468))
+- Sapote, mamey, raw (fdcId: [167760](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167760))
+- Sauce, alfredo mix, dry (fdcId: [171603](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171603))
+- Sauce, cocktail, ready-to-serve (fdcId: [174067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174067))
+- Sauce, enchilada, red, mild, ready to serve (fdcId: [174074](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174074))
+- Sauce, hoisin, ready-to-serve (fdcId: [172886](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172886))
+- Sauce, homemade, white, medium (fdcId: [174525](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174525))
+- Sauce, homemade, white, thick (fdcId: [174526](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174526))
+- Sauce, hot chile, sriracha (fdcId: [171186](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171186))
+- Sauce, hot chile, sriracha, CHA! BY TEXAS PETE (fdcId: [171187](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171187))
+- Sauce, hot chile, sriracha, TUONG OT SRIRACHA (fdcId: [171188](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171188))
+- Sauce, salsa, ready-to-serve (fdcId: [174524](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174524))
+- Sauce, salsa, verde, ready-to-serve (fdcId: [171824](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171824))
+- Sauce, sofrito, prepared from recipe (fdcId: [171174](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171174))
+- Sauce, sweet and sour, prepared-from-recipe (fdcId: [174543](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174543))
+- Sauce, sweet and sour, ready-to-serve (fdcId: [174066](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174066))
+- Sauce, tartar, ready-to-serve (fdcId: [171826](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171826))
+- Sauce, teriyaki, ready-to-serve (fdcId: [171167](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171167))
+- Sauce, teriyaki, ready-to-serve, reduced sodium (fdcId: [172890](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172890))
+- Sauce, worcestershire (fdcId: [171610](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171610))
+- Sea lion, Steller, heart (Alaska Native) (fdcId: [169002](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169002))
+- Semolina, enriched (fdcId: [169715](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169715))
+- Semolina, unenriched (fdcId: [168933](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168933))
+- Shake, fast food, vanilla (fdcId: [173226](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173226))
+- Shallots, freeze-dried (fdcId: [170082](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170082))
+- Shallots, raw (fdcId: [170499](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170499))
+- Shortening frying (heavy duty), palm (hydrogenated) (fdcId: [172331](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172331))
+- Shortening, confectionery, fractionated palm (fdcId: [172334](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172334))
+- Smelt, dried (Alaska Native) (fdcId: [167654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167654))
+- Snack mix, plain (Chex Mix) (fdcId: [2343774](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2343774))
+- Snacks, bagel chips, plain (fdcId: [173150](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173150))
+- Snacks, granola bites, mixed flavors (fdcId: [173146](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173146))
+- Snacks, taro chips (fdcId: [168865](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168865))
+- Snacks, trail mix, regular (fdcId: [167561](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167561))
+- Snacks, trail mix, regular, unsalted (fdcId: [170654](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170654))
+- Snacks, trail mix, tropical (fdcId: [167968](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167968))
+- Snacks, yucca (cassava) chips, salted (fdcId: [173152](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173152))
+- Soup, bouillon cubes and granules, low sodium, dry (fdcId: [171613](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171613))
+- Soup, hot and sour, Chinese restaurant (fdcId: [174808](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174808))
+- Soup, minestrone, canned, chunky, ready-to-serve (fdcId: [171550](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171550))
+- Soup, minestrone, canned, condensed (fdcId: [171153](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171153))
+- Soup, minestrone, canned, reduced sodium, ready-to-serve (fdcId: [174530](https://fdc.nal.usda.gov/fdc-app.html#/food-details/174530))
+- Soup, wonton, Chinese restaurant (fdcId: [171821](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171821))
+- Soursop, nectar (fdcId: [2344844](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344844))
+- Soursop, raw (fdcId: [167761](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167761))
+- Spaghetti, protein-fortified, cooked, enriched (n x 6.25) (fdcId: [168934](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168934))
+- Spaghetti, protein-fortified, dry, enriched (n x 6.25) (fdcId: [168937](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168937))
+- Spelt, cooked (fdcId: [169746](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169746))
+- Spelt, uncooked (fdcId: [169745](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169745))
+- Spices, allspice, ground (fdcId: [171315](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171315))
+- Spices, cardamom (fdcId: [170919](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170919))
+- Spices, chervil, dried (fdcId: [171318](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171318))
+- Spices, chili powder (fdcId: [171319](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171319))
+- Spices, cinnamon, ground (fdcId: [171320](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171320))
+- Spices, cloves, ground (fdcId: [171321](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171321))
+- Spices, curry powder (fdcId: [170924](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170924))
+- Spices, mace, ground (fdcId: [170927](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170927))
+- Spices, marjoram, dried (fdcId: [170928](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170928))
+- Spices, oregano, dried (fdcId: [171328](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171328))
+- Spices, paprika (fdcId: [171329](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171329))
+- Spices, rosemary, dried (fdcId: [171333](https://fdc.nal.usda.gov/fdc-app.html#/food-details/171333))
+- Spices, saffron (fdcId: [170934](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170934))
+- Spices, sage, ground (fdcId: [170935](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170935))
+- Spices, savory, ground (fdcId: [170936](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170936))
+- Spices, tarragon, dried (fdcId: [170937](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170937))
+- Spices, thyme, dried (fdcId: [170938](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170938))
+- Spices, turmeric, ground (fdcId: [172231](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172231))
+- Stew, hominy with mutton (Navajo) (fdcId: [168043](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168043))
+- Sweet and sour sauce (fdcId: [2345856](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345856))
+- Sweeteners, tabletop, aspartame, EQUAL, packets (fdcId: [169657](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169657))
+- Sweeteners, tabletop, fructose, dry, powder (fdcId: [169896](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169896))
+- Sweeteners, tabletop, fructose, liquid (fdcId: [168142](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168142))
+- Sweeteners, tabletop, saccharin (sodium saccharin) (fdcId: [169072](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169072))
+- Sweeteners, tabletop, sucralose, SPLENDA packets (fdcId: [170257](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170257))
+- TACO BELL, Taco Salad (fdcId: [170736](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170736))
+- Taco shells, baked (fdcId: [172800](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172800))
+- Taco shells, baked, without added salt (fdcId: [175067](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175067))
+- Tamales (Navajo) (fdcId: [167636](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167636))
+- Taro chips (fdcId: [2345070](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345070))
+- Taro, cooked, with salt (fdcId: [170543](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170543))
+- Taro, cooked, without salt (fdcId: [168486](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168486))
+- Taro, raw (fdcId: [169308](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169308))
+- Taro, tahitian, cooked, with salt (fdcId: [170136](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170136))
+- Taro, tahitian, cooked, without salt (fdcId: [170455](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170455))
+- Taro, tahitian, raw (fdcId: [169310](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169310))
+- Tart, breakfast, low fat (fdcId: [175069](https://fdc.nal.usda.gov/fdc-app.html#/food-details/175069))
+- Tartar sauce (fdcId: [2345730](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345730))
+- Teff, cooked (fdcId: [168918](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168918))
+- Teff, uncooked (fdcId: [169747](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169747))
+- Teriyaki sauce (fdcId: [2342920](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342920))
+- Teriyaki sauce, reduced sodium (fdcId: [2342921](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342921))
+- Thousand Island dressing (fdcId: [2345770](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345770))
+- Thousand Island dressing, fat free (fdcId: [2345798](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345798))
+- Thousand Island dressing, light (fdcId: [2345786](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2345786))
+- Thyme, fresh (fdcId: [173470](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173470))
+- Toddler drink, MEAD JOHNSON, PurAmino Toddler Powder, with ARA and DHA, not reconstituted (fdcId: [172294](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172294))
+- Tomatillos, raw (fdcId: [168566](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168566))
+- Topping, SMUCKER'S MAGIC SHELL (fdcId: [167956](https://fdc.nal.usda.gov/fdc-app.html#/food-details/167956))
+- Tree fern, cooked, with salt (fdcId: [168553](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168553))
+- Tree fern, cooked, without salt (fdcId: [170464](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170464))
+- Triticale (fdcId: [169718](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169718))
+- Vanilla extract (fdcId: [173471](https://fdc.nal.usda.gov/fdc-app.html#/food-details/173471))
+- Vanilla extract, imitation, alcohol (fdcId: [172235](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172235))
+- Vanilla extract, imitation, no alcohol (fdcId: [172236](https://fdc.nal.usda.gov/fdc-app.html#/food-details/172236))
+- WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single (fdcId: [170772](https://fdc.nal.usda.gov/fdc-app.html#/food-details/170772))
+- Whale, beluga, eyes (Alaska Native) (fdcId: [169796](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169796))
+- Whale, beluga, flipper, raw (Alaska Native) (fdcId: [168979](https://fdc.nal.usda.gov/fdc-app.html#/food-details/168979))
+- Wocas, tuber, cooked, Oregon, yellow pond lily (Klamath) (fdcId: [169005](https://fdc.nal.usda.gov/fdc-app.html#/food-details/169005))
+- Wonton soup (fdcId: [2344651](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344651))
+- Worcestershire sauce (fdcId: [2342922](https://fdc.nal.usda.gov/fdc-app.html#/food-details/2342922))

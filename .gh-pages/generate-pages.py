@@ -36,7 +36,7 @@ def main():
                     fdc_id = food.fdc_id
                     description = food.description
                     url = get_fdc_app_details_url(fdc_id)
-                    list_f.write(f"- {description} (fdcId: [{fdc_id}]({url});\n")
+                    list_f.write(f"- {description} (fdcId: [{fdc_id}]({url}))\n")
 
 
 if __name__ == "__main__":
