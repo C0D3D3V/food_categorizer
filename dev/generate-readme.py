@@ -23,7 +23,7 @@ def render_readme_into_file(f):
     # generate category lists & categories TOC
     current_dir = os.getcwd()
     run(
-        ["python3", "./.gh-pages/generate-pages.py"],
+        ["python", "./.gh-pages/generate-pages.py"],
         env={'PYTHONPATH': os.path.join(current_dir, 'src')},
         check=True,
     )
