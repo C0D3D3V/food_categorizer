@@ -22,10 +22,21 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Use Python 3.11
+      - name: Use Python 3.11.9
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.11.9"
+
+      - name: Display current Python version
+        run: /usr/bin/python --version
+
+      - name: Create symlink for Python
+        run: |
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/python3 /usr/bin/python
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/pip3 /usr/bin/pip
+
+      - name: Verify Python symlink
+        run: /usr/bin/python --version
 
       - name: Install project's Python package
         run: pip install .
@@ -157,10 +168,21 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Use Python 3.11
+      - name: Use Python 3.11.9
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.11.9"
+
+      - name: Display current Python version
+        run: /usr/bin/python --version
+
+      - name: Create symlink for Python
+        run: |
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/python3 /usr/bin/python
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/pip3 /usr/bin/pip
+
+      - name: Verify Python symlink
+        run: /usr/bin/python --version
 
       - name: Install project's Python package
         run: pip install .
@@ -222,11 +244,22 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Use Python 3.11
+      - name: Use Python 3.11.9
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.11.9"
 
+      - name: Display current Python version
+        run: /usr/bin/python --version
+
+      - name: Create symlink for Python
+        run: |
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/python3 /usr/bin/python
+          sudo ln -sf /opt/hostedtoolcache/Python/3.11.9/x64/bin/pip3 /usr/bin/pip
+
+      - name: Verify Python symlink
+        run: /usr/bin/python --version
+        
       - name: Install project's Python package
         run: pip install .
 
