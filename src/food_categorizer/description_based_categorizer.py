@@ -446,7 +446,7 @@ nullification_mappings = {
         TokenCategory.SUGGESTS_VEGETARIAN_OR_OMNI: (TokenCategory.SUGGESTS_VEGETARIAN),
     },
     TokenCategory.NULLIFIES_OMNI_AND_VEGETARIAN: {
-        token_category: TokenCategory.SUGGESTS_VEGETARIAN for token_category in categories_to_tokens.keys()
+        token_category: TokenCategory.SUGGESTS_VEGAN for token_category in categories_to_tokens
     },
 }
 
