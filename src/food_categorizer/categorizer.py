@@ -22,7 +22,7 @@ class Categorizer:
             return ref.expected_diet_category
         return self.combined_heuristic_categorize(food)
 
-    def combined_heuristic_categorize(self, food: Food):
+    def combined_heuristic_categorize(self, food: Food) -> DietCategory:
         ingredient_based_category = self.ingredient_based_heuristic_categorize(food)
         if ingredient_based_category == DietCategory.UNCATEGORIZED:
             return description_based_heuristic_categorize(food.description)
